@@ -1880,7 +1880,13 @@
           "room": "C-101",
           "type": "theory"
         },
-        {},
+        {
+          "subject": "EMI1X01",
+          "faculty": "M-ANIL-KUMAR",
+          "coFaculty": "",
+          "room": "C-101",
+          "type": "theory"
+        },
         {
           "subject": "",
           "faculty": "",
@@ -2081,13 +2087,7 @@
           "room": "C-101",
           "type": "theory"
         },
-        {
-          "subject": "EMI1X01",
-          "faculty": "M-ANIL-KUMAR",
-          "coFaculty": "",
-          "room": "C-101",
-          "type": "theory"
-        },
+        {},
         {}
       ]
     },
@@ -11108,5 +11108,5 @@
   "recoveryNote": "Allocation reconstructed from the Server 2 master timetable table. Full faculty names were recovered from HTML title attributes where display text was shortened. Solver objective, bound, warm-start information and diagnostics cannot be recovered from HTML.",
   "recoveredSlots": 1151,
   "unmappedSubjectDisplays": [],
-  "manualEditNote": "JOE faculty removed; approved manual whole-slot swaps applied: CSE-G Fri P2/P3, CS-B Mon P1/P3, CS-B Tue P2/P3, ECE-A Thu P1/P6. No solver rerun. EEE-C SAL assigned H-104 Mon P5-P7; CE-A SAL moved to Wed P4-P6 H-104; CE-A MECT lab moved to Thu P6-P7; ECE-D K-ANAND-KUMAR Wed P5 moved to Mon P6; ECE-D G-RANJITH-KUMAR Wed P6 moved to Wed P5. CE-A LAC (M-ANIL-KUMAR) moved Mon P3 to Thu P5 C-101 to fill the Thursday gap."
+  "manualEditNote": "JOE faculty removed; approved manual whole-slot swaps applied: CSE-G Fri P2/P3, CS-B Mon P1/P3, CS-B Tue P2/P3, ECE-A Thu P1/P6. No solver rerun. EEE-C SAL assigned H-104 Mon P5-P7; CE-A SAL moved to Wed P4-P6 H-104; CE-A MECT lab moved to Thu P6-P7; ECE-D K-ANAND-KUMAR Wed P5 moved to Mon P6; ECE-D G-RANJITH-KUMAR Wed P6 moved to Wed P5. CE-A LAC (M-ANIL-KUMAR) moved Fri P6 to Thu P5 C-101 to fill the Thursday gap."
 }
