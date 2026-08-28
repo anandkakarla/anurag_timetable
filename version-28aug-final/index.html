@@ -3,13 +3,24 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:Arial,sans-serif;font-size:11px;background:#f0f4f8;color:#20242d}
-h1{text-align:center;padding:14px;font-size:18px;background:#1a237e;color:#fff}
-.generated-time{display:block;margin-top:4px;font-size:10px;font-weight:normal;color:#c5cae9;letter-spacing:.2px}
+.university-header{position:relative;display:flex;align-items:center;justify-content:space-between;gap:24px;padding:16px 24px;background:#fff;border-top:5px solid #c82035;border-bottom:1px solid #e2e8f0;box-shadow:0 5px 18px rgba(15,23,42,.08)}
+.university-header:after{content:"";position:absolute;left:0;right:0;bottom:-4px;height:3px;background:linear-gradient(90deg,#c82035 0 23%,#1a237e 23% 100%)}
+.brand-lockup{display:flex;align-items:center;gap:16px;min-width:260px}
+.brand-logo{width:230px;max-width:36vw;height:auto;display:block}
+.brand-divider{width:1px;height:46px;background:#dbe2ea}
+.brand-school{color:#475569;font-size:11px;line-height:1.45;text-transform:uppercase;letter-spacing:1.2px;font-weight:700}
+.title-lockup{text-align:right;color:#17205e}
+.title-lockup h1{padding:0;font-size:23px;line-height:1.2;background:transparent;color:#17205e;text-align:right}
+.title-kicker{display:block;margin-bottom:5px;color:#c82035;font-size:10px;font-weight:800;letter-spacing:1.6px;text-transform:uppercase}
+.generated-time{display:block;margin-top:5px;font-size:10px;font-weight:normal;color:#64748b;letter-spacing:.2px}
+.title-badges{display:flex;justify-content:flex-end;gap:6px;margin-top:9px;flex-wrap:wrap}
+.title-badge{padding:4px 9px;border-radius:999px;background:#eef2ff;color:#1a237e;border:1px solid #d8def8;font-size:9px;font-weight:800;letter-spacing:.4px}
+.title-badge.final{background:#fff1f2;color:#b51e35;border-color:#fecdd3}
 .status-pill{display:inline-block;margin-left:10px;padding:2px 10px;border-radius:12px;font-size:11px;font-weight:700;vertical-align:middle;letter-spacing:.3px}
 .status-pill.st-feasible,.status-pill.st-optimal{background:#22c55e;color:#08331a}
 .status-pill.st-infeasible,.status-pill.st-error{background:#ef4444;color:#3d0a0a}
 .status-pill.st-unknown{background:#f59e0b;color:#402c02}
-.tabs{display:flex;background:#1a237e;padding:0 16px;gap:4px;flex-wrap:wrap}
+.tabs{display:flex;background:linear-gradient(90deg,#171f68,#1a237e);padding:0 16px;gap:4px;flex-wrap:wrap;box-shadow:0 3px 10px rgba(26,35,126,.14)}
 .tab{padding:10px 20px;cursor:pointer;color:#c5cae9;font-size:12px;font-weight:bold;border-bottom:3px solid transparent;transition:.15s}
 .tab.active{color:#fff;border-bottom-color:#facc15}
 .tab:hover{color:#fff}
@@ -55,7 +66,7 @@ th,td{border:1px solid #dfe3ef;padding:3px 5px;text-align:center;min-width:70px}
 .legend{display:flex;gap:14px;justify-content:center;padding:7px;flex-wrap:wrap;background:#fff;border-bottom:1px solid #dfe3ef}
 .leg{display:flex;align-items:center;gap:5px;font-size:10px;padding:2px 8px;border-radius:10px;background:#f4f6fb}
 .legbox{width:11px;height:11px;border-radius:50%;border:1px solid rgba(0,0,0,.15)}
-.meta{text-align:center;padding:8px 6px;font-size:10.5px;background:#eef1f8;border-bottom:1px solid #dfe3ef;color:#374151;font-weight:600;letter-spacing:.2px}
+.meta{text-align:center;padding:8px 6px;font-size:10.5px;background:#f8fafc;border-bottom:1px solid #dfe3ef;color:#475569;font-weight:600;letter-spacing:.2px}
 .sc-legend{background:#eef1f8;border-bottom:2px solid #dfe3ef}
 .sc-legend-hdr{text-align:center;font-size:11px;font-weight:bold;color:#1a237e;padding:6px 0;cursor:pointer;user-select:none}
 .sc-legend-hdr:hover{color:#374bd6}
@@ -75,8 +86,21 @@ th,td{border:1px solid #dfe3ef;padding:3px 5px;text-align:center;min-width:70px}
 .load-bar div{height:100%;border-radius:4px}
 #load-summary .wrap{max-height:420px;overflow-y:auto}
 #load-summary table{width:auto;min-width:100%}
+@media(max-width:760px){.university-header{align-items:flex-start;flex-direction:column;padding:14px 16px;gap:12px}.brand-logo{width:205px;max-width:68vw}.brand-divider{height:40px}.brand-school{font-size:9px}.title-lockup,.title-lockup h1{text-align:left}.title-lockup h1{font-size:19px}.title-badges{justify-content:flex-start}}
 </style></head><body>
-<h1>&#128197; Sem-1 Timetable (R26)<span class="generated-time">Generated: 28 Aug 2026, 6 PM India Standard Time</span></h1>
+<header class="university-header">
+  <div class="brand-lockup">
+    <img class="brand-logo" src="assets/anurag-university-logo.png" alt="Anurag University">
+    <span class="brand-divider" aria-hidden="true"></span>
+    <span class="brand-school">School of<br>Engineering</span>
+  </div>
+  <div class="title-lockup">
+    <span class="title-kicker">Academic Timetable</span>
+    <h1>B.Tech I Year &middot; I Semester</h1>
+    <span class="generated-time">Generated: 28 Aug 2026, 6 PM India Standard Time</span>
+    <div class="title-badges"><span class="title-badge">R26 Curriculum</span><span class="title-badge">A.Y. 2026&ndash;27</span><span class="title-badge final">Final &middot; 28 Aug</span></div>
+  </div>
+</header>
 <div class="meta">40 sections &middot; 189 faculty &middot; 5-day week (Mon&ndash;Fri)</div>
 <div class="legend">
   <div class="leg"><span class="legbox" style="background:#edf3ff"></span> Theory</div>
