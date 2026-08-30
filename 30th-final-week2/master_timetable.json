@@ -704,9 +704,9 @@
     "room": ""
    },
    "P4": {
-    "subject": "Materials, Energy and Chemical Technologies",
-    "abbr": "MECT",
-    "faculty": "BATHINI-SRINIVAS",
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "A-RAMBABU",
     "room": "H-206"
    },
    "P5": {
@@ -716,9 +716,9 @@
     "room": "H-206"
    },
    "P6": {
-    "subject": "Programming in C",
-    "abbr": "PIC",
-    "faculty": "A-RAMBABU",
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "BATHINI-SRINIVAS",
     "room": "H-206"
    },
    "P7": null
@@ -1517,19 +1517,29 @@
     "room": "H-206"
    },
    "P4": {
-    "subject": "Generative AI Tools Lab",
-    "abbr": "GenAI-L",
-    "faculty": "A-RAMBABU",
-    "room": "D-402"
+    "subject": "Mentoring",
+    "abbr": "Mentor",
+    "faculty": "",
+    "room": ""
    },
    "P5": {
+    "subject": "Library",
+    "abbr": "Library",
+    "faculty": "",
+    "room": ""
+   },
+   "P6": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
     "faculty": "A-RAMBABU",
-    "room": "D-402"
+    "room": "H-402"
    },
-   "P6": null,
-   "P7": null
+   "P7": {
+    "subject": "Generative AI Tools Lab",
+    "abbr": "GenAI-L",
+    "faculty": "A-RAMBABU",
+    "room": "H-402"
+   }
   },
   "Thu": {
    "P1": {
@@ -2115,37 +2125,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAI-SIREESHA-R / SAURABH-BARPUTE",
     "room": "JOY-LAB-05"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAI-SIREESHA-R / SAURABH-BARPUTE",
     "room": "JOY-LAB-05"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAI-SIREESHA-R / SAURABH-BARPUTE",
     "room": "JOY-LAB-05"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAI-SIREESHA-R / SAURABH-BARPUTE",
     "room": "JOY-LAB-05"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAI-SIREESHA-R / SAURABH-BARPUTE",
     "room": "JOY-LAB-05"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAI-SIREESHA-R / SAURABH-BARPUTE",
     "room": "JOY-LAB-05"
    },
    "P7": null
@@ -2156,37 +2166,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "K-SANDEEP-KUMAR / CH-NAVANEETHA",
     "room": "JOY-LAB-04"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "K-SANDEEP-KUMAR / CH-NAVANEETHA",
     "room": "JOY-LAB-04"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "K-SANDEEP-KUMAR / CH-NAVANEETHA",
     "room": "JOY-LAB-04"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "K-SANDEEP-KUMAR / CH-NAVANEETHA",
     "room": "JOY-LAB-04"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "K-SANDEEP-KUMAR / CH-NAVANEETHA",
     "room": "JOY-LAB-04"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "K-SANDEEP-KUMAR / CH-NAVANEETHA",
     "room": "JOY-LAB-04"
    },
    "P7": null
@@ -2558,19 +2568,19 @@
    "P4": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "A-JYOTHI-KUMARI / A-PRADEEP-KUMAR",
     "room": "D-205"
    },
    "P5": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "A-JYOTHI-KUMARI / A-PRADEEP-KUMAR",
     "room": "D-205"
    },
    "P6": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "A-JYOTHI-KUMARI / A-PRADEEP-KUMAR",
     "room": "D-205"
    },
    "P7": null
@@ -2647,37 +2657,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-04"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-04"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-04"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-04"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-04"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-04"
    },
    "P7": null
@@ -2716,13 +2726,13 @@
    "P6": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "A-JYOTHI-KUMARI / A-PRADEEP-KUMAR",
     "room": "B-Block Aarambh Auditorium"
    },
    "P7": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "A-JYOTHI-KUMARI / A-PRADEEP-KUMAR",
     "room": "B-Block Aarambh Auditorium"
    }
   }
@@ -2732,37 +2742,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "HARISH-MUGUTKAR / L-SRINIVAS-NAIK",
     "room": "JOY-LAB-01"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "HARISH-MUGUTKAR / L-SRINIVAS-NAIK",
     "room": "JOY-LAB-01"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "HARISH-MUGUTKAR / L-SRINIVAS-NAIK",
     "room": "JOY-LAB-01"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "HARISH-MUGUTKAR / L-SRINIVAS-NAIK",
     "room": "JOY-LAB-01"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "HARISH-MUGUTKAR / L-SRINIVAS-NAIK",
     "room": "JOY-LAB-01"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "HARISH-MUGUTKAR / L-SRINIVAS-NAIK",
     "room": "JOY-LAB-01"
    },
    "P7": null
@@ -2789,13 +2799,13 @@
    "P4": {
     "subject": "Engineering Physics Lab",
     "abbr": "EP-L",
-    "faculty": "",
+    "faculty": "B-SATYANARAYANA-REDDY / A-LINGA-MURTHY",
     "room": "D-401/D-413"
    },
    "P5": {
     "subject": "Engineering Physics Lab",
     "abbr": "EP-L",
-    "faculty": "",
+    "faculty": "B-SATYANARAYANA-REDDY / A-LINGA-MURTHY",
     "room": "D-401/D-413"
    },
    "P6": null,
@@ -2953,37 +2963,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-01"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-01"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-01"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-01"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-01"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "G-CH-GANAGA-RAO / P-CHINNA-SRINIVASA-RAO",
     "room": "JOY-LAB-01"
    },
    "P7": null
@@ -2992,13 +3002,13 @@
    "P1": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "A-PRADEEP-KUMAR / VADAPALLI-LAKSHMI",
     "room": "A-314"
    },
    "P2": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "A-PRADEEP-KUMAR / VADAPALLI-LAKSHMI",
     "room": "A-314"
    },
    "P3": {
@@ -3044,19 +3054,19 @@
    "P4": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "A-PRADEEP-KUMAR / VADAPALLI-LAKSHMI",
     "room": "D-201"
    },
    "P5": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "A-PRADEEP-KUMAR / VADAPALLI-LAKSHMI",
     "room": "D-201"
    },
    "P6": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "A-PRADEEP-KUMAR / VADAPALLI-LAKSHMI",
     "room": "D-201"
    },
    "P7": null
@@ -3083,13 +3093,13 @@
    "P4": {
     "subject": "Engineering Physics Lab",
     "abbr": "EP-L",
-    "faculty": "",
+    "faculty": "P-RAGHUPATHI-REDDY / NISHA-GAUTAM",
     "room": "D-401/D-413"
    },
    "P5": {
     "subject": "Engineering Physics Lab",
     "abbr": "EP-L",
-    "faculty": "",
+    "faculty": "P-RAGHUPATHI-REDDY / NISHA-GAUTAM",
     "room": "D-401/D-413"
    },
    "P6": {
@@ -3124,19 +3134,19 @@
    "P4": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "",
+    "faculty": "M-PRAVEEN-KUMAR / KARIPE-MAHESH",
     "room": "D-512"
    },
    "P5": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "",
+    "faculty": "M-PRAVEEN-KUMAR / KARIPE-MAHESH",
     "room": "D-512"
    },
    "P6": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "",
+    "faculty": "M-PRAVEEN-KUMAR / KARIPE-MAHESH",
     "room": "D-512"
    },
    "P7": null
@@ -3439,13 +3449,13 @@
    "P1": {
     "subject": "Engineering Physics Lab",
     "abbr": "EP-L",
-    "faculty": "",
+    "faculty": "D-RAJKUMAR / P-RAGHUPATHI-REDDY",
     "room": "D-401/D-413"
    },
    "P2": {
     "subject": "Engineering Physics Lab",
     "abbr": "EP-L",
-    "faculty": "",
+    "faculty": "D-RAJKUMAR / P-RAGHUPATHI-REDDY",
     "room": "D-401/D-413"
    },
    "P3": {
@@ -3701,19 +3711,19 @@
    "P1": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "",
+    "faculty": "AKULA-SATISH-KUMAR / R-RADHA-KUMARI",
     "room": "D-308"
    },
    "P2": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "",
+    "faculty": "AKULA-SATISH-KUMAR / R-RADHA-KUMARI",
     "room": "D-308"
    },
    "P3": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "",
+    "faculty": "AKULA-SATISH-KUMAR / R-RADHA-KUMARI",
     "room": "D-308"
    },
    "P4": {
@@ -3927,19 +3937,19 @@
    "P1": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "",
+    "faculty": "PALLERLA-NAGAIAH-GOUD / R-RADHA-KUMARI",
     "room": "D-308"
    },
    "P2": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "",
+    "faculty": "PALLERLA-NAGAIAH-GOUD / R-RADHA-KUMARI",
     "room": "D-308"
    },
    "P3": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "",
+    "faculty": "PALLERLA-NAGAIAH-GOUD / R-RADHA-KUMARI",
     "room": "D-308"
    },
    "P4": {
@@ -3985,13 +3995,13 @@
    "P5": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "A-MANOHAR-REDDY / MAHAMMAD-GHOUSE-SHAIK",
     "room": "B-Block Aarambh Auditorium"
    },
    "P6": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "A-MANOHAR-REDDY / MAHAMMAD-GHOUSE-SHAIK",
     "room": "B-Block Aarambh Auditorium"
    },
    "P7": null
@@ -4018,19 +4028,19 @@
    "P4": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "A-MANOHAR-REDDY / MAHAMMAD-GHOUSE-SHAIK",
     "room": "D-201"
    },
    "P5": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "A-MANOHAR-REDDY / MAHAMMAD-GHOUSE-SHAIK",
     "room": "D-201"
    },
    "P6": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "A-MANOHAR-REDDY / MAHAMMAD-GHOUSE-SHAIK",
     "room": "D-201"
    },
    "P7": null
@@ -4223,37 +4233,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "CH-NAVANEETHA / K-SANDEEP-KUMAR",
     "room": "JOY-LAB-04"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "CH-NAVANEETHA / K-SANDEEP-KUMAR",
     "room": "JOY-LAB-04"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "CH-NAVANEETHA / K-SANDEEP-KUMAR",
     "room": "JOY-LAB-04"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "CH-NAVANEETHA / K-SANDEEP-KUMAR",
     "room": "JOY-LAB-04"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "CH-NAVANEETHA / K-SANDEEP-KUMAR",
     "room": "JOY-LAB-04"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "CH-NAVANEETHA / K-SANDEEP-KUMAR",
     "room": "JOY-LAB-04"
    },
    "P7": null
@@ -4512,37 +4522,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-04"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-04"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-04"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-04"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-04"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-04"
    },
    "P7": null
@@ -4587,37 +4597,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "L-SRINIVAS-NAIK / HARISH-MUGUTKAR",
     "room": "JOY-LAB-01"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "L-SRINIVAS-NAIK / HARISH-MUGUTKAR",
     "room": "JOY-LAB-01"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "L-SRINIVAS-NAIK / HARISH-MUGUTKAR",
     "room": "JOY-LAB-01"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "L-SRINIVAS-NAIK / HARISH-MUGUTKAR",
     "room": "JOY-LAB-01"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "L-SRINIVAS-NAIK / HARISH-MUGUTKAR",
     "room": "JOY-LAB-01"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "L-SRINIVAS-NAIK / HARISH-MUGUTKAR",
     "room": "JOY-LAB-01"
    },
    "P7": null
@@ -4650,19 +4660,19 @@
    "P5": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "GVS-ANANTA-LAKSHMI / G-KISHORE-KUMAR",
     "room": "D-205"
    },
    "P6": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "GVS-ANANTA-LAKSHMI / G-KISHORE-KUMAR",
     "room": "D-205"
    },
    "P7": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "GVS-ANANTA-LAKSHMI / G-KISHORE-KUMAR",
     "room": "D-205"
    }
   },
@@ -4705,13 +4715,13 @@
    "P2": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "GVS-ANANTA-LAKSHMI / G-KISHORE-KUMAR",
     "room": "B-Block Aarambh Auditorium"
    },
    "P3": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "GVS-ANANTA-LAKSHMI / G-KISHORE-KUMAR",
     "room": "B-Block Aarambh Auditorium"
    },
    "P4": {
@@ -4813,37 +4823,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-01"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-01"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-01"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-01"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-01"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "P-CHINNA-SRINIVASA-RAO / G-CH-GANAGA-RAO",
     "room": "JOY-LAB-01"
    },
    "P7": null
@@ -5467,37 +5477,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "J-SURYA-MANIDEEP / SHRUTHI-KEERTHI",
     "room": "JOY-LAB-02"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "J-SURYA-MANIDEEP / SHRUTHI-KEERTHI",
     "room": "JOY-LAB-02"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "J-SURYA-MANIDEEP / SHRUTHI-KEERTHI",
     "room": "JOY-LAB-02"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "J-SURYA-MANIDEEP / SHRUTHI-KEERTHI",
     "room": "JOY-LAB-02"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "J-SURYA-MANIDEEP / SHRUTHI-KEERTHI",
     "room": "JOY-LAB-02"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "J-SURYA-MANIDEEP / SHRUTHI-KEERTHI",
     "room": "JOY-LAB-02"
    },
    "P7": null
@@ -6043,37 +6053,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SHRUTHI-KEERTHI / J-SURYA-MANIDEEP",
     "room": "JOY-LAB-02"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SHRUTHI-KEERTHI / J-SURYA-MANIDEEP",
     "room": "JOY-LAB-02"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SHRUTHI-KEERTHI / J-SURYA-MANIDEEP",
     "room": "JOY-LAB-02"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SHRUTHI-KEERTHI / J-SURYA-MANIDEEP",
     "room": "JOY-LAB-02"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SHRUTHI-KEERTHI / J-SURYA-MANIDEEP",
     "room": "JOY-LAB-02"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SHRUTHI-KEERTHI / J-SURYA-MANIDEEP",
     "room": "JOY-LAB-02"
    },
    "P7": null
@@ -6598,13 +6608,13 @@
    "P4": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "CH-SRINIVAS-RAO / G-KISHORE-KUMAR",
     "room": "B-Block Aarambh Auditorium"
    },
    "P5": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "CH-SRINIVAS-RAO / G-KISHORE-KUMAR",
     "room": "B-Block Aarambh Auditorium"
    },
    "P6": null,
@@ -6653,19 +6663,19 @@
    "P1": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "CH-SRINIVAS-RAO / G-KISHORE-KUMAR",
     "room": "D-205"
    },
    "P2": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "CH-SRINIVAS-RAO / G-KISHORE-KUMAR",
     "room": "D-205"
    },
    "P3": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "CH-SRINIVAS-RAO / G-KISHORE-KUMAR",
     "room": "D-205"
    },
    "P4": {
@@ -7128,13 +7138,13 @@
    "P2": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "CH-SRINIVAS-RAO / MAHAMMAD-GHOUSE-SHAIK",
     "room": "B-Block Aarambh Auditorium"
    },
    "P3": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "CH-SRINIVAS-RAO / MAHAMMAD-GHOUSE-SHAIK",
     "room": "B-Block Aarambh Auditorium"
    },
    "P4": {
@@ -7151,19 +7161,19 @@
    "P1": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "CH-SRINIVAS-RAO / MAHAMMAD-GHOUSE-SHAIK",
     "room": "B-106"
    },
    "P2": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "CH-SRINIVAS-RAO / MAHAMMAD-GHOUSE-SHAIK",
     "room": "B-106"
    },
    "P3": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "CH-SRINIVAS-RAO / MAHAMMAD-GHOUSE-SHAIK",
     "room": "B-106"
    },
    "P4": {
@@ -7224,37 +7234,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAURABH-BARPUTE / SAI-SIREESHA-R",
     "room": "JOY-LAB-05"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAURABH-BARPUTE / SAI-SIREESHA-R",
     "room": "JOY-LAB-05"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAURABH-BARPUTE / SAI-SIREESHA-R",
     "room": "JOY-LAB-05"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAURABH-BARPUTE / SAI-SIREESHA-R",
     "room": "JOY-LAB-05"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAURABH-BARPUTE / SAI-SIREESHA-R",
     "room": "JOY-LAB-05"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "",
+    "faculty": "SAURABH-BARPUTE / SAI-SIREESHA-R",
     "room": "JOY-LAB-05"
    },
    "P7": null
@@ -7265,19 +7275,19 @@
    "P1": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "D-SUDHAKAR-REDDY / PV-LAXMIPRASAD",
     "room": "B-106"
    },
    "P2": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "D-SUDHAKAR-REDDY / PV-LAXMIPRASAD",
     "room": "B-106"
    },
    "P3": {
     "subject": "Professional Communication - I Lab",
     "abbr": "PC-L",
-    "faculty": "",
+    "faculty": "D-SUDHAKAR-REDDY / PV-LAXMIPRASAD",
     "room": "B-106"
    },
    "P4": {
@@ -7406,13 +7416,13 @@
    "P1": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "D-SUDHAKAR-REDDY / PV-LAXMIPRASAD",
     "room": "A-314"
    },
    "P2": {
     "subject": "Professional Communication - I",
     "abbr": "PC-I",
-    "faculty": "",
+    "faculty": "D-SUDHAKAR-REDDY / PV-LAXMIPRASAD",
     "room": "A-314"
    },
    "P3": {
