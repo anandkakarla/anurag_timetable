@@ -1352,7 +1352,7 @@
     "subject": "Programming in C",
     "abbr": "PIC",
     "faculty": "M-MAHENDER",
-    "room": "H-214"
+    "room": "H-212"
    },
    "P5": {
     "subject": "Library",
@@ -7738,16 +7738,16 @@
    },
    "P3": null,
    "P4": {
-    "subject": "Programming in C",
-    "abbr": "PIC",
-    "faculty": "P-ADITYA-SHARMA",
-    "room": "H-214"
+    "subject": "Generative AI Tools Lab",
+    "abbr": "GenAI-L",
+    "faculty": "ANASUA-BANERJEE",
+    "room": "D-501"
    },
    "P5": {
-    "subject": "Materials, Energy and Chemical Technologies",
-    "abbr": "MECT",
-    "faculty": "BATHINI-SRINIVAS",
-    "room": "H-214"
+    "subject": "Generative AI Tools Lab",
+    "abbr": "GenAI-L",
+    "faculty": "ANASUA-BANERJEE",
+    "room": "D-501"
    },
    "P6": {
     "subject": "Generative AI Tools Lab",
@@ -7781,7 +7781,12 @@
     "faculty": "P-ADITYA-SHARMA",
     "room": "D-512"
    },
-   "P4": null,
+   "P4": {
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "P-ADITYA-SHARMA",
+    "room": "H-214"
+   },
    "P5": {
     "subject": "Linear Algebra and Calculus",
     "abbr": "LAC",
@@ -7814,17 +7819,12 @@
     "faculty": "P-ADITYA-SHARMA",
     "room": "H-214"
    },
-   "P3": {
-    "subject": "Generative AI Tools Lab",
-    "abbr": "GenAI-L",
-    "faculty": "ANASUA-BANERJEE",
-    "room": "H-306"
-   },
+   "P3": null,
    "P4": {
-    "subject": "Generative AI Tools Lab",
-    "abbr": "GenAI-L",
-    "faculty": "ANASUA-BANERJEE",
-    "room": "H-306"
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "BATHINI-SRINIVAS",
+    "room": "H-214"
    },
    "P5": {
     "subject": "Linear Algebra and Calculus",
