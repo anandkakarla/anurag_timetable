@@ -97,6 +97,14 @@ th,td{border:1px solid #dfe3ef;padding:3px 5px;text-align:center;min-width:70px}
 .room-util-fill{height:100%;border-radius:999px;background:linear-gradient(90deg,#1e3a8a,#dc2626)}
 .room-util-value{text-align:right;color:#475569;font-size:11px;white-space:nowrap}
 @media(max-width:600px){.room-util-list{grid-template-columns:1fr}.room-util-row{grid-template-columns:82px 1fr 92px}}
+
+/* grouped-room-utilization-v2 */
+.room-util-super{padding:12px 14px 4px}
+.room-util-super-title{margin:0 0 9px;padding:7px 10px;border-left:4px solid #b91c1c;background:#f8fafc;color:#172554;font-size:14px;font-weight:800}
+.room-util-groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(350px,1fr));gap:12px;margin-bottom:14px}
+.room-util-group-card{border:1px solid #dbe3ef;border-radius:10px;background:#fff;overflow:hidden}
+.room-util-group-title{padding:8px 10px;background:#eef2ff;color:#1e3a8a;font-size:12px;font-weight:800}
+.room-util-group-rows{padding:7px;display:grid;gap:5px}
 </style></head><body>
 <h1>📅 Sem-1 Timetable (R26)<span class="generated-time">Generated: 30 Aug 2026, 08 AM IST</span></h1>
 <div class="meta">40 sections · 190 faculty · 5-day week (Mon–Fri)</div>
@@ -239,33 +247,58 @@ document.addEventListener('DOMContentLoaded', function () {
 <script id="room-util-dashboard-v1">
 document.addEventListener('DOMContentLoaded', function () {
   const roomView = document.querySelector('#view-room');
-  if (!roomView) return;
-  const data = Array.from(roomView.querySelectorAll('.room-panel')).map(function(panel){
+  const picker = roomView?.querySelector('.room-pool-picker');
+  if (!roomView || !picker) return;
+  const roomData = new Map();
+  Array.from(roomView.querySelectorAll('.room-panel')).forEach(function(panel){
     const header = panel.querySelector('.panel-hdr');
     const room = (header?.childNodes[0]?.textContent || '').replace(/^Room\s+/,'').trim();
     const rows = Array.from(panel.querySelectorAll('table tr')).filter(row => /^P[1-7]\s/.test(row.querySelector('th.lbl')?.textContent || ''));
     let occupied = 0;
     rows.forEach(row => Array.from(row.querySelectorAll(':scope > td')).forEach(cell => { if (cell.querySelector('.cell')) occupied++; }));
-    return {room, occupied, percent: occupied / 35 * 100};
-  }).filter(x => x.room).sort((a,b) => b.occupied-a.occupied || a.room.localeCompare(b.room));
-  const dash = document.createElement('details');
-  dash.className = 'room-util-dashboard';
-  dash.open = true;
-  dash.innerHTML = '<summary>📊 Room Utilization Overview — '+data.length+' rooms</summary>';
-  const list = document.createElement('div');
-  list.className = 'room-util-list';
-  data.forEach(function(x){
-    const row = document.createElement('div'); row.className='room-util-row';
-    const name = document.createElement('button'); name.className='room-util-name'; name.textContent=x.room;
-    name.addEventListener('click', function(){ if (typeof window.showRoom==='function') window.showRoom(x.room); });
-    const track = document.createElement('div'); track.className='room-util-track';
-    const fill = document.createElement('div'); fill.className='room-util-fill'; fill.style.width=x.percent.toFixed(1)+'%'; track.appendChild(fill);
-    const value = document.createElement('div'); value.className='room-util-value'; value.textContent=x.occupied+'/35 · '+x.percent.toFixed(1)+'% · '+(35-x.occupied)+' free';
-    row.append(name,track,value); list.appendChild(row);
+    if (room) {
+      const value={room,occupied,percent:occupied/35*100};
+      roomData.set(room,value);
+      const canonical=(panel.id||'').replace(/^room-/,'').replaceAll('_','-');
+      if(canonical)roomData.set(canonical,value);
+    }
   });
-  dash.appendChild(list);
-  const firstPanel = roomView.querySelector('.room-panel');
-  if (firstPanel) firstPanel.insertAdjacentElement('beforebegin', dash); else roomView.appendChild(dash);
+  function makeRow(button){
+    const room = button.dataset.room;
+    const x = roomData.get(room);
+    if (!x) return null;
+    const row=document.createElement('div'); row.className='room-util-row';
+    const name=document.createElement('button'); name.className='room-util-name'; name.textContent=button.textContent.trim();
+    name.addEventListener('click',()=>{if(typeof window.showRoom==='function')window.showRoom(room)});
+    const track=document.createElement('div'); track.className='room-util-track';
+    const fill=document.createElement('div'); fill.className='room-util-fill'; fill.style.width=x.percent.toFixed(1)+'%'; track.appendChild(fill);
+    const value=document.createElement('div'); value.className='room-util-value'; value.textContent=x.occupied+'/35 · '+x.percent.toFixed(1)+'% · '+(35-x.occupied)+' free';
+    row.append(name,track,value); return row;
+  }
+  function poolName(group){return (group.querySelector('.room-pool-name')?.childNodes[0]?.textContent||'Room Pool').trim()}
+  function addSuper(container,title,groups){
+    const superBox=document.createElement('section'); superBox.className='room-util-super';
+    const heading=document.createElement('h3'); heading.className='room-util-super-title'; heading.textContent=title; superBox.appendChild(heading);
+    const cards=document.createElement('div'); cards.className='room-util-groups';
+    groups.forEach(function(group){
+      const entries=Array.from(group.querySelectorAll('.room-pool-buttons .btn')).map(makeRow).filter(Boolean).sort((a,b)=>{
+        const av=parseInt(a.querySelector('.room-util-value').textContent); const bv=parseInt(b.querySelector('.room-util-value').textContent); return bv-av;
+      });
+      if(!entries.length)return;
+      const card=document.createElement('div'); card.className='room-util-group-card';
+      const name=document.createElement('div'); name.className='room-util-group-title'; name.textContent=poolName(group); card.appendChild(name);
+      const rows=document.createElement('div'); rows.className='room-util-group-rows'; entries.forEach(x=>rows.appendChild(x)); card.appendChild(rows); cards.appendChild(card);
+    });
+    superBox.appendChild(cards); container.appendChild(superBox);
+  }
+  const dash=document.createElement('details'); dash.className='room-util-dashboard'; dash.open=true;
+  dash.innerHTML='<summary>📊 Grouped Room Utilization</summary>';
+  const directPools=Array.from(picker.children).filter(x=>x.classList.contains('room-pool-group'));
+  const theoryPools=Array.from(picker.querySelectorAll('.theory-super-group .room-pool-group'));
+  addSuper(dash,'Laboratory & Activity Room Pools',directPools);
+  addSuper(dash,'Theory Room Pools',theoryPools);
+  const firstPanel=roomView.querySelector('.room-panel');
+  if(firstPanel)firstPanel.insertAdjacentElement('beforebegin',dash);else roomView.appendChild(dash);
 });
 </script>
 </body></html>
