@@ -7980,16 +7980,16 @@
         "room": "D-310"
       },
       "P5": {
-        "subject": "Engineering Physics Lab",
-        "abbr": "EP-L",
-        "faculty": "NISHA-GAUTAM",
-        "room": "D-401/D-413"
+        "subject": "Programming in C",
+        "abbr": "PIC",
+        "faculty": "S-BOOPATHI",
+        "room": "D-310"
       },
       "P6": {
-        "subject": "Engineering Physics Lab",
-        "abbr": "EP-L",
+        "subject": "Engineering Physics",
+        "abbr": "EP",
         "faculty": "NISHA-GAUTAM",
-        "room": "D-401/D-413"
+        "room": "D-310"
       },
       "P7": null
     },
@@ -8013,22 +8013,22 @@
         "room": "B-106"
       },
       "P4": {
-        "subject": "Programming in C",
-        "abbr": "PIC",
-        "faculty": "S-BOOPATHI",
-        "room": "D-310"
-      },
-      "P5": {
         "subject": "Linear Algebra and Calculus",
         "abbr": "LAC",
         "faculty": "K-SHIVA-REDDY",
         "room": "D-310"
       },
-      "P6": {
-        "subject": "Engineering Physics",
-        "abbr": "EP",
+      "P5": {
+        "subject": "Engineering Physics Lab",
+        "abbr": "EP-L",
         "faculty": "NISHA-GAUTAM",
-        "room": "D-310"
+        "room": "D-401/D-413"
+      },
+      "P6": {
+        "subject": "Engineering Physics Lab",
+        "abbr": "EP-L",
+        "faculty": "NISHA-GAUTAM",
+        "room": "D-401/D-413"
       },
       "P7": null
     }
