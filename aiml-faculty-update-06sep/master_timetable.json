@@ -408,19 +408,19 @@
       "P1": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "M-MAHENDER / A-RAMBABU",
+        "faculty": "MANNAVA-YESU-BABU / G-ASHOK-KUMAR",
         "room": "D-501"
       },
       "P2": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "M-MAHENDER / A-RAMBABU",
+        "faculty": "MANNAVA-YESU-BABU / G-ASHOK-KUMAR",
         "room": "D-501"
       },
       "P3": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "M-MAHENDER / A-RAMBABU",
+        "faculty": "MANNAVA-YESU-BABU / G-ASHOK-KUMAR",
         "room": "D-501"
       },
       "P4": {
@@ -438,13 +438,13 @@
       "P6": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "A-RAMBABU",
+        "faculty": "P-SRI-DEVI",
         "room": "H-306"
       },
       "P7": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "A-RAMBABU",
+        "faculty": "P-SRI-DEVI",
         "room": "H-306"
       }
     },
@@ -491,7 +491,7 @@
       "P1": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "M-MAHENDER",
+        "faculty": "MANNAVA-YESU-BABU",
         "room": "H-204"
       },
       "P2": {
@@ -503,7 +503,7 @@
       "P3": {
         "subject": "Generative AI Tools",
         "abbr": "GenAI",
-        "faculty": "A-RAMBABU",
+        "faculty": "P-SRI-DEVI",
         "room": "H-204"
       },
       "P4": {
@@ -537,7 +537,7 @@
       "P3": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "M-MAHENDER",
+        "faculty": "MANNAVA-YESU-BABU",
         "room": "H-204"
       },
       "P4": {
@@ -582,7 +582,7 @@
       "P4": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "M-MAHENDER",
+        "faculty": "MANNAVA-YESU-BABU",
         "room": "H-204"
       },
       "P5": {
@@ -594,13 +594,13 @@
       "P6": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "A-RAMBABU",
+        "faculty": "P-SRI-DEVI",
         "room": "H-110"
       },
       "P7": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "A-RAMBABU",
+        "faculty": "P-SRI-DEVI",
         "room": "H-110"
       }
     }
@@ -616,7 +616,7 @@
       "P2": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "V-SHASHANK",
+        "faculty": "MANNAVA-YESU-BABU",
         "room": "H-206"
       },
       "P3": {
@@ -628,13 +628,13 @@
       "P4": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "K-SRIHARI",
+        "faculty": "A-RAMBABU",
         "room": "H-402"
       },
       "P5": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "K-SRIHARI",
+        "faculty": "A-RAMBABU",
         "room": "H-402"
       },
       "P6": null,
@@ -644,13 +644,13 @@
       "P1": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "K-SRIHARI",
+        "faculty": "A-RAMBABU",
         "room": "H-306"
       },
       "P2": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "K-SRIHARI",
+        "faculty": "A-RAMBABU",
         "room": "H-306"
       },
       "P3": {
@@ -706,7 +706,7 @@
       "P4": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "V-SHASHANK",
+        "faculty": "MANNAVA-YESU-BABU",
         "room": "H-206"
       },
       "P5": {
@@ -766,13 +766,13 @@
       "P1": {
         "subject": "Generative AI Tools",
         "abbr": "GenAI",
-        "faculty": "K-SRIHARI",
+        "faculty": "A-RAMBABU",
         "room": "H-206"
       },
       "P2": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "V-SHASHANK",
+        "faculty": "MANNAVA-YESU-BABU",
         "room": "H-206"
       },
       "P3": {
@@ -790,19 +790,19 @@
       "P5": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
+        "faculty": "MANNAVA-YESU-BABU / A-RAMBABU",
         "room": "D-501"
       },
       "P6": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
+        "faculty": "MANNAVA-YESU-BABU / A-RAMBABU",
         "room": "D-501"
       },
       "P7": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
+        "faculty": "MANNAVA-YESU-BABU / A-RAMBABU",
         "room": "D-501"
       }
     }
@@ -869,19 +869,19 @@
       "P4": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "M-MAHENDER / MANNAVA-YESU-BABU",
+        "faculty": "M-MAHENDER / S-MEGHANA",
         "room": "D-501"
       },
       "P5": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "M-MAHENDER / MANNAVA-YESU-BABU",
+        "faculty": "M-MAHENDER / S-MEGHANA",
         "room": "D-501"
       },
       "P6": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "M-MAHENDER / MANNAVA-YESU-BABU",
+        "faculty": "M-MAHENDER / S-MEGHANA",
         "room": "D-501"
       },
       "P7": {
@@ -1064,7 +1064,7 @@
       "P2": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "MANNAVA-YESU-BABU",
+        "faculty": "M-MAHENDER",
         "room": "H-212"
       },
       "P3": {
@@ -1092,7 +1092,7 @@
       "P1": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "MANNAVA-YESU-BABU",
+        "faculty": "M-MAHENDER",
         "room": "H-212"
       },
       "P2": {
@@ -1116,19 +1116,19 @@
       "P5": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "MANNAVA-YESU-BABU / P-SRI-DEVI",
+        "faculty": "M-MAHENDER / P-SRI-DEVI",
         "room": "D-308"
       },
       "P6": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "MANNAVA-YESU-BABU / P-SRI-DEVI",
+        "faculty": "M-MAHENDER / P-SRI-DEVI",
         "room": "D-308"
       },
       "P7": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "MANNAVA-YESU-BABU / P-SRI-DEVI",
+        "faculty": "M-MAHENDER / P-SRI-DEVI",
         "room": "D-308"
       }
     },
@@ -1193,7 +1193,7 @@
       "P4": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "MANNAVA-YESU-BABU",
+        "faculty": "M-MAHENDER",
         "room": "H-212"
       },
       "P5": {
@@ -1216,19 +1216,19 @@
       "P1": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "MANNAVA-YESU-BABU / G-ASHOK-KUMAR",
+        "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
         "room": "D-512"
       },
       "P2": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "MANNAVA-YESU-BABU / G-ASHOK-KUMAR",
+        "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
         "room": "D-512"
       },
       "P3": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "MANNAVA-YESU-BABU / G-ASHOK-KUMAR",
+        "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
         "room": "D-512"
       },
       "P4": {
@@ -1240,7 +1240,7 @@
       "P5": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "MANNAVA-YESU-BABU",
+        "faculty": "V-SHASHANK",
         "room": "H-214"
       },
       "P6": {
@@ -1261,7 +1261,7 @@
       "P2": {
         "subject": "Generative AI Tools",
         "abbr": "GenAI",
-        "faculty": "P-SRI-DEVI",
+        "faculty": "A-RAMBABU",
         "room": "H-214"
       },
       "P3": {
@@ -1273,13 +1273,13 @@
       "P4": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "P-SRI-DEVI",
+        "faculty": "A-RAMBABU",
         "room": "H-306"
       },
       "P5": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "P-SRI-DEVI",
+        "faculty": "A-RAMBABU",
         "room": "H-306"
       },
       "P6": {
@@ -1333,7 +1333,7 @@
       "P1": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "MANNAVA-YESU-BABU",
+        "faculty": "V-SHASHANK",
         "room": "H-214"
       },
       "P2": {
@@ -1351,7 +1351,7 @@
       "P4": {
         "subject": "Programming in C",
         "abbr": "PIC",
-        "faculty": "MANNAVA-YESU-BABU",
+        "faculty": "V-SHASHANK",
         "room": "H-212"
       },
       "P5": {
@@ -1363,13 +1363,13 @@
       "P6": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "P-SRI-DEVI",
+        "faculty": "A-RAMBABU",
         "room": "H-402"
       },
       "P7": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "P-SRI-DEVI",
+        "faculty": "A-RAMBABU",
         "room": "H-402"
       }
     },
@@ -1457,7 +1457,7 @@
       "P1": {
         "subject": "Generative AI Tools",
         "abbr": "GenAI",
-        "faculty": "A-RAMBABU",
+        "faculty": "K-SRIHARI",
         "room": "H-204"
       },
       "P2": {
@@ -1487,13 +1487,13 @@
       "P6": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "A-RAMBABU",
+        "faculty": "K-SRIHARI",
         "room": "H-402"
       },
       "P7": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "A-RAMBABU",
+        "faculty": "K-SRIHARI",
         "room": "H-402"
       }
     },
@@ -1531,13 +1531,13 @@
       "P6": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "A-RAMBABU",
+        "faculty": "K-SRIHARI",
         "room": "H-402"
       },
       "P7": {
         "subject": "Generative AI Tools Lab",
         "abbr": "GenAI-L",
-        "faculty": "A-RAMBABU",
+        "faculty": "K-SRIHARI",
         "room": "H-402"
       }
     },
@@ -1545,19 +1545,19 @@
       "P1": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "V-SHASHANK / S-MEGHANA",
+        "faculty": "V-SHASHANK / MANNAVA-YESU-BABU",
         "room": "D-308"
       },
       "P2": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "V-SHASHANK / S-MEGHANA",
+        "faculty": "V-SHASHANK / MANNAVA-YESU-BABU",
         "room": "D-308"
       },
       "P3": {
         "subject": "Programming in C Lab",
         "abbr": "PIC-L",
-        "faculty": "V-SHASHANK / S-MEGHANA",
+        "faculty": "V-SHASHANK / MANNAVA-YESU-BABU",
         "room": "D-308"
       },
       "P4": {
