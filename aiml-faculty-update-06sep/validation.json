@@ -1,0 +1,18 @@
+{
+  "view-master": {
+    "seen": 0,
+    "bad": 0
+  },
+  "view-section": {
+    "seen": 0,
+    "bad": 0
+  },
+  "view-room": {
+    "seen": 36,
+    "bad": 0
+  },
+  "view-course": {
+    "seen": 0,
+    "bad": 0
+  }
+}
