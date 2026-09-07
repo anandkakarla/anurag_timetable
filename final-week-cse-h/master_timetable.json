@@ -5863,7 +5863,12 @@
         "faculty": "VENKATAIAH",
         "room": "D-414"
       },
-      "P5": null,
+      "P5": {
+        "subject": "Programming in C",
+        "abbr": "PIC",
+        "faculty": "T-N-RAVIKANTH",
+        "room": "D-414"
+      },
       "P6": null,
       "P7": null
     },
@@ -6429,15 +6434,15 @@
         "room": "ELEC-LAB-01"
       },
       "P4": {
-        "subject": "Linear Algebra and Calculus",
-        "abbr": "LAC",
-        "faculty": "P-SIREESHA",
-        "room": "D-505"
-      },
-      "P5": {
         "subject": "Programming in C",
         "abbr": "PIC",
         "faculty": "T-N-RAVIKANTH",
+        "room": "D-505"
+      },
+      "P5": {
+        "subject": "Linear Algebra and Calculus",
+        "abbr": "LAC",
+        "faculty": "P-SIREESHA",
         "room": "D-505"
       },
       "P6": {
