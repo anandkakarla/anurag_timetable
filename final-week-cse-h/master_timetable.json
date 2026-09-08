@@ -5282,7 +5282,12 @@
         "faculty": "T-SRIKANTH",
         "room": "D-405"
       },
-      "P5": null,
+      "P5": {
+        "subject": "Programming in C",
+        "abbr": "PIC",
+        "faculty": "T-SRIKANTH",
+        "room": "D-405"
+      },
       "P6": null,
       "P7": null
     },
@@ -6060,7 +6065,12 @@
         "faculty": "NISHA-GAUTAM",
         "room": "D-206"
       },
-      "P5": null,
+      "P5": {
+        "subject": "Linear Algebra and Calculus",
+        "abbr": "LAC",
+        "faculty": "P-CHANDRAKALA",
+        "room": "D-402"
+      },
       "P6": null,
       "P7": null
     },
