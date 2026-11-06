@@ -1291,19 +1291,19 @@
    "P1": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "V-SHASHANK / K-SRIHARI",
+    "faculty": "NAVATHA",
     "room": "D-512"
    },
    "P2": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "V-SHASHANK / K-SRIHARI",
+    "faculty": "NAVATHA / K-SRIHARI",
     "room": "D-512"
    },
    "P3": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "V-SHASHANK / K-SRIHARI",
+    "faculty": "NAVATHA / K-SRIHARI",
     "room": "D-512"
    },
    "P4": {
@@ -1315,7 +1315,7 @@
    "P5": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "V-SHASHANK",
+    "faculty": "NAVATHA",
     "room": "H-214"
    },
    "P6": {
@@ -1341,7 +1341,7 @@
    "P2": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "V-SHASHANK",
+    "faculty": "NAVATHA",
     "room": "H-214"
    },
    "P3": {
@@ -1371,7 +1371,7 @@
    "P7": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "V-SHASHANK",
+    "faculty": "NAVATHA",
     "room": "H-214"
    }
   },
@@ -1441,13 +1441,13 @@
    "P4": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "V-SHASHANK",
+    "faculty": "NAVATHA",
     "room": "H-214"
    },
    "P5": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "V-SHASHANK",
+    "faculty": "NAVATHA",
     "room": "H-214"
    },
    "P6": {
@@ -1544,7 +1544,7 @@
    "P7": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "V-SHASHANK",
+    "faculty": "NAVATHA",
     "room": "H-204"
    }
   },
@@ -1552,7 +1552,7 @@
    "P1": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "V-SHASHANK",
+    "faculty": "NAVATHA",
     "room": "H-204"
    },
    "P2": {
@@ -1576,7 +1576,7 @@
    "P5": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "V-SHASHANK",
+    "faculty": "NAVATHA",
     "room": "H-204"
    },
    "P6": {
@@ -1608,13 +1608,13 @@
    "P3": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "V-SHASHANK",
+    "faculty": "NAVATHA",
     "room": "H-206"
    },
    "P4": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "V-SHASHANK",
+    "faculty": "NAVATHA",
     "room": "H-211"
    },
    "P5": {
@@ -1640,19 +1640,19 @@
    "P1": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
+    "faculty": "NAVATHA / G-ASHOK-KUMAR",
     "room": "D-308"
    },
    "P2": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
+    "faculty": "NAVATHA / G-ASHOK-KUMAR",
     "room": "D-308"
    },
    "P3": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
+    "faculty": "NAVATHA / G-ASHOK-KUMAR",
     "room": "D-308"
    },
    "P4": {
