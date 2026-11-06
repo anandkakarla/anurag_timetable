@@ -65,9 +65,9 @@
     "room": "H-202"
    },
    "P5": {
-    "subject": "Linear Algebra and Calculus",
-    "abbr": "LAC",
-    "faculty": "B-RAJENDER",
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "B-RAVIKRISHNA",
     "room": "H-202"
    },
    "P6": {
@@ -91,9 +91,9 @@
     "room": "H-202"
    },
    "P2": {
-    "subject": "Generative AI Tools",
-    "abbr": "GenAI",
-    "faculty": "K-CHANDRAM",
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "B-RAVIKRISHNA",
     "room": "H-202"
    },
    "P3": {
@@ -109,10 +109,10 @@
     "room": "H-202"
    },
    "P5": {
-    "subject": "Mentoring",
-    "abbr": "Mentor",
-    "faculty": "",
-    "room": ""
+    "subject": "Generative AI Tools",
+    "abbr": "GenAI",
+    "faculty": "K-CHANDRAM",
+    "room": "H-202"
    },
    "P6": {
     "subject": "Materials, Energy and Chemical Technologies Lab",
@@ -141,10 +141,10 @@
     "room": "H-202"
    },
    "P3": {
-    "subject": "Library",
-    "abbr": "Library",
-    "faculty": "",
-    "room": ""
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "GODUMALA-MALLESHAM",
+    "room": "H-202"
    },
    "P4": {
     "subject": "Generative AI Tools Lab",
@@ -158,14 +158,24 @@
     "faculty": "K-CHANDRAM",
     "room": "H-402"
    },
-   "P6": null,
-   "P7": null
+   "P6": {
+    "subject": "Mentoring",
+    "abbr": "Mentor",
+    "faculty": "",
+    "room": ""
+   },
+   "P7": {
+    "subject": "Library",
+    "abbr": "Library",
+    "faculty": "",
+    "room": ""
+   }
   },
   "Fri": {
    "P1": {
-    "subject": "Programming in C",
-    "abbr": "PIC",
-    "faculty": "B-RAVIKRISHNA",
+    "subject": "Linear Algebra and Calculus",
+    "abbr": "LAC",
+    "faculty": "B-RAJENDER",
     "room": "H-202"
    },
    "P2": {
@@ -198,7 +208,12 @@
     "faculty": "B-RAVIKRISHNA",
     "room": "D-308"
    },
-   "P7": null
+   "P7": {
+    "subject": "Programming in C Lab",
+    "abbr": "PIC-L",
+    "faculty": "B-RAVIKRISHNA",
+    "room": "D-308"
+   }
   }
  },
  "AI-B": {
@@ -7714,13 +7729,13 @@
     "subject": "Programming in C",
     "abbr": "PIC",
     "faculty": "P-ADITYA-SHARMA",
-    "room": "H-214"
+    "room": "H-203"
    },
    "P7": {
-    "subject": "Mentoring",
-    "abbr": "Mentor",
-    "faculty": "",
-    "room": ""
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "P-ADITYA-SHARMA",
+    "room": "H-203"
    }
   },
   "Wed": {
@@ -7736,7 +7751,12 @@
     "faculty": "K-SREERAM-REDDY",
     "room": "H-214"
    },
-   "P3": null,
+   "P3": {
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "BATHINI-SRINIVAS",
+    "room": "H-302"
+   },
    "P4": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
@@ -7753,13 +7773,13 @@
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
     "faculty": "ANASUA-BANERJEE",
-    "room": "H-110"
+    "room": "D-501"
    },
    "P7": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
     "faculty": "ANASUA-BANERJEE",
-    "room": "H-110"
+    "room": "D-501"
    }
   },
   "Thu": {
@@ -7782,16 +7802,16 @@
     "room": "D-512"
    },
    "P4": {
-    "subject": "Programming in C",
-    "abbr": "PIC",
-    "faculty": "P-ADITYA-SHARMA",
-    "room": "H-214"
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "BATHINI-SRINIVAS",
+    "room": "H-202"
    },
    "P5": {
     "subject": "Linear Algebra and Calculus",
     "abbr": "LAC",
     "faculty": "K-SREERAM-REDDY",
-    "room": "H-214"
+    "room": "H-202"
    },
    "P6": {
     "subject": "Materials, Energy and Chemical Technologies Lab",
@@ -7808,9 +7828,9 @@
   },
   "Fri": {
    "P1": {
-    "subject": "Materials, Energy and Chemical Technologies",
-    "abbr": "MECT",
-    "faculty": "BATHINI-SRINIVAS",
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "P-ADITYA-SHARMA",
     "room": "H-214"
    },
    "P2": {
@@ -7819,7 +7839,12 @@
     "faculty": "P-ADITYA-SHARMA",
     "room": "H-214"
    },
-   "P3": null,
+   "P3": {
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "P-ADITYA-SHARMA",
+    "room": "H-214"
+   },
    "P4": {
     "subject": "Materials, Energy and Chemical Technologies",
     "abbr": "MECT",
@@ -7832,7 +7857,12 @@
     "faculty": "K-SREERAM-REDDY",
     "room": "H-214"
    },
-   "P6": null,
+   "P6": {
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "BATHINI-SRINIVAS",
+    "room": "H-214"
+   },
    "P7": null
   }
  }
