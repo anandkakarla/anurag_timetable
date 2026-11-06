@@ -423,31 +423,31 @@
    "P1": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "MANNAVA-YESU-BABU",
+    "faculty": "MANNAVA-YESU-BABU / G-ASHOK-KUMAR",
     "room": "D-501"
    },
    "P2": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "MANNAVA-YESU-BABU",
+    "faculty": "MANNAVA-YESU-BABU / G-ASHOK-KUMAR",
     "room": "D-501"
    },
    "P3": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "MANNAVA-YESU-BABU",
+    "faculty": "MANNAVA-YESU-BABU / G-ASHOK-KUMAR",
     "room": "D-501"
    },
    "P4": {
-    "subject": "Linear Algebra and Calculus",
-    "abbr": "LAC",
-    "faculty": "K-RAMESH",
-    "room": "H-204"
-   },
-   "P5": {
     "subject": "Materials, Energy and Chemical Technologies",
     "abbr": "MECT",
     "faculty": "MARRI-PRADEEP-KUMUR",
+    "room": "H-204"
+   },
+   "P5": {
+    "subject": "Linear Algebra and Calculus",
+    "abbr": "LAC",
+    "faculty": "K-RAMESH",
     "room": "H-204"
    },
    "P6": {
@@ -467,37 +467,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHAIK-SHAHEDA / SHAIK-SHAHEDA",
+    "faculty": "SHAIK-SHAHEDA / H-AMARESH / K-MANISHA",
     "room": "JOY-LAB-03"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHAIK-SHAHEDA / SHAIK-SHAHEDA",
+    "faculty": "SHAIK-SHAHEDA / H-AMARESH / K-MANISHA",
     "room": "JOY-LAB-03"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHAIK-SHAHEDA / SHAIK-SHAHEDA",
+    "faculty": "SHAIK-SHAHEDA / H-AMARESH / K-MANISHA",
     "room": "JOY-LAB-03"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHAIK-SHAHEDA / SHAIK-SHAHEDA",
+    "faculty": "SHAIK-SHAHEDA / H-AMARESH / K-MANISHA",
     "room": "JOY-LAB-03"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHAIK-SHAHEDA / SHAIK-SHAHEDA",
+    "faculty": "SHAIK-SHAHEDA / H-AMARESH / K-MANISHA",
     "room": "JOY-LAB-03"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHAIK-SHAHEDA / SHAIK-SHAHEDA",
+    "faculty": "SHAIK-SHAHEDA / H-AMARESH / K-MANISHA",
     "room": "JOY-LAB-03"
    },
    "P7": null
@@ -528,13 +528,23 @@
     "room": "H-204"
    },
    "P5": {
-    "subject": "Library",
-    "abbr": "Library",
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "MANNAVA-YESU-BABU",
+    "room": "H-204"
+   },
+   "P6": {
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "MANNAVA-YESU-BABU",
+    "room": "H-204"
+   },
+   "P7": {
+    "subject": "Mentoring",
+    "abbr": "Mentor",
     "faculty": "",
     "room": ""
-   },
-   "P6": null,
-   "P7": null
+   }
   },
   "Thu": {
    "P1": {
@@ -573,20 +583,25 @@
     "faculty": "P-MANOHAR",
     "room": "H-109"
    },
-   "P7": null
+   "P7": {
+    "subject": "Library",
+    "abbr": "Library",
+    "faculty": "",
+    "room": ""
+   }
   },
   "Fri": {
    "P1": {
     "subject": "Materials, Energy and Chemical Technologies Lab",
     "abbr": "MECT-L",
     "faculty": "MARRI-PRADEEP-KUMUR",
-    "room": "D-409"
+    "room": "D-512"
    },
    "P2": {
     "subject": "Materials, Energy and Chemical Technologies Lab",
     "abbr": "MECT-L",
     "faculty": "MARRI-PRADEEP-KUMUR",
-    "room": "D-409"
+    "room": "D-512"
    },
    "P3": {
     "subject": "Linear Algebra and Calculus",
@@ -601,10 +616,10 @@
     "room": "H-204"
    },
    "P5": {
-    "subject": "Mentoring",
-    "abbr": "Mentor",
-    "faculty": "",
-    "room": ""
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "MARRI-PRADEEP-KUMUR",
+    "room": "H-204"
    },
    "P6": {
     "subject": "Generative AI Tools Lab",
@@ -629,8 +644,8 @@
     "room": "H-206"
    },
    "P2": {
-    "subject": "Programming in C",
-    "abbr": "PIC",
+    "subject": "Generative AI Tools",
+    "abbr": "GenAI",
     "faculty": "A-RAMBABU",
     "room": "H-206"
    },
@@ -643,29 +658,39 @@
    "P4": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "CH-HARSHINI",
+    "faculty": "A-RAMBABU",
     "room": "H-402"
    },
    "P5": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "CH-HARSHINI",
+    "faculty": "A-RAMBABU",
     "room": "H-402"
    },
-   "P6": null,
-   "P7": null
+   "P6": {
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "BATHINI-SRINIVAS",
+    "room": "H-206"
+   },
+   "P7": {
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "MANNAVA-YESU-BABU",
+    "room": "H-206"
+   }
   },
   "Tue": {
    "P1": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "CH-HARSHINI",
+    "faculty": "A-RAMBABU",
     "room": "H-306"
    },
    "P2": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "CH-HARSHINI",
+    "faculty": "A-RAMBABU",
     "room": "H-306"
    },
    "P3": {
@@ -713,15 +738,15 @@
     "room": "D-509"
    },
    "P3": {
-    "subject": "Library",
-    "abbr": "Library",
-    "faculty": "",
-    "room": ""
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "MANNAVA-YESU-BABU",
+    "room": "H-206"
    },
    "P4": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "A-RAMBABU",
+    "faculty": "MANNAVA-YESU-BABU",
     "room": "H-206"
    },
    "P5": {
@@ -736,58 +761,63 @@
     "faculty": "BATHINI-SRINIVAS",
     "room": "H-206"
    },
-   "P7": null
+   "P7": {
+    "subject": "Library",
+    "abbr": "Library",
+    "faculty": "",
+    "room": ""
+   }
   },
   "Thu": {
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "L-SRINIVAS-NAIK / A-SURESH",
+    "faculty": "G-CH-GANGA-RAO / A-AJITHA / SUSHMA",
     "room": "JOY-LAB-03"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "L-SRINIVAS-NAIK / A-SURESH",
+    "faculty": "G-CH-GANGA-RAO / A-AJITHA / SUSHMA",
     "room": "JOY-LAB-03"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "L-SRINIVAS-NAIK / A-SURESH",
+    "faculty": "G-CH-GANGA-RAO / A-AJITHA / SUSHMA",
     "room": "JOY-LAB-03"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "L-SRINIVAS-NAIK / A-SURESH",
+    "faculty": "G-CH-GANGA-RAO / A-AJITHA / SUSHMA",
     "room": "JOY-LAB-03"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "L-SRINIVAS-NAIK / A-SURESH",
+    "faculty": "G-CH-GANGA-RAO / A-AJITHA / SUSHMA",
     "room": "JOY-LAB-03"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "L-SRINIVAS-NAIK / A-SURESH",
+    "faculty": "G-CH-GANGA-RAO / A-AJITHA / SUSHMA",
     "room": "JOY-LAB-03"
    },
    "P7": null
   },
   "Fri": {
    "P1": {
-    "subject": "Generative AI Tools",
-    "abbr": "GenAI",
-    "faculty": "CH-HARSHINI",
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "MANNAVA-YESU-BABU",
     "room": "H-206"
    },
    "P2": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "A-RAMBABU",
+    "faculty": "MANNAVA-YESU-BABU",
     "room": "H-206"
    },
    "P3": {
@@ -805,19 +835,19 @@
    "P5": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "A-RAMBABU",
+    "faculty": "MANNAVA-YESU-BABU / A-RAMBABU",
     "room": "D-501"
    },
    "P6": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "A-RAMBABU",
+    "faculty": "MANNAVA-YESU-BABU / A-RAMBABU",
     "room": "D-501"
    },
    "P7": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "A-RAMBABU",
+    "faculty": "MANNAVA-YESU-BABU / A-RAMBABU",
     "room": "D-501"
    }
   }
@@ -827,37 +857,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SAIDULU / J-PRIYANAKA",
+    "faculty": "SHRUTHI-KEERTHI / H-AMARESH / K-SATHWIKA",
     "room": "JOY-LAB-03"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SAIDULU / J-PRIYANAKA",
+    "faculty": "SHRUTHI-KEERTHI / H-AMARESH / K-SATHWIKA",
     "room": "JOY-LAB-03"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SAIDULU / J-PRIYANAKA",
+    "faculty": "SHRUTHI-KEERTHI / H-AMARESH / K-SATHWIKA",
     "room": "JOY-LAB-03"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SAIDULU / J-PRIYANAKA",
+    "faculty": "SHRUTHI-KEERTHI / H-AMARESH / K-SATHWIKA",
     "room": "JOY-LAB-03"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SAIDULU / J-PRIYANAKA",
+    "faculty": "SHRUTHI-KEERTHI / H-AMARESH / K-SATHWIKA",
     "room": "JOY-LAB-03"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SAIDULU / J-PRIYANAKA",
+    "faculty": "SHRUTHI-KEERTHI / H-AMARESH / K-SATHWIKA",
     "room": "JOY-LAB-03"
    },
    "P7": null
@@ -872,69 +902,69 @@
    "P2": {
     "subject": "Materials, Energy and Chemical Technologies",
     "abbr": "MECT",
-    "faculty": "PRADEEP-KUMAR-CHALLA",
+    "faculty": "SANDHYA-KUTIKANTI",
     "room": "H-211"
    },
    "P3": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "S-MEGHANA",
+    "faculty": "M-MAHENDER",
     "room": "H-211"
    },
    "P4": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "S-MEGHANA",
+    "faculty": "M-MAHENDER / S-MEGHANA",
     "room": "D-501"
    },
    "P5": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "S-MEGHANA",
+    "faculty": "M-MAHENDER / S-MEGHANA",
     "room": "D-501"
    },
    "P6": {
-    "subject": "Programming in C Lab",
-    "abbr": "PIC-L",
-    "faculty": "S-MEGHANA",
+    "subject": "Generative AI Tools Lab",
+    "abbr": "GenAI-L",
+    "faculty": "A-RAMBABU",
     "room": "D-501"
    },
    "P7": {
-    "subject": "Mentoring",
-    "abbr": "Mentor",
-    "faculty": "",
-    "room": ""
+    "subject": "Generative AI Tools Lab",
+    "abbr": "GenAI-L",
+    "faculty": "A-RAMBABU",
+    "room": "D-501"
    }
   },
   "Wed": {
    "P1": {
     "subject": "Generative AI Tools",
     "abbr": "GenAI",
-    "faculty": "K-SRIHARI",
+    "faculty": "A-RAMBABU",
     "room": "H-211"
    },
    "P2": {
     "subject": "Materials, Energy and Chemical Technologies",
     "abbr": "MECT",
-    "faculty": "PRADEEP-KUMAR-CHALLA",
+    "faculty": "SANDHYA-KUTIKANTI",
     "room": "H-211"
    },
    "P3": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "S-MEGHANA",
+    "faculty": "M-MAHENDER",
     "room": "H-211"
    },
    "P4": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "K-SRIHARI",
+    "faculty": "A-RAMBABU",
     "room": "H-402"
    },
    "P5": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "K-SRIHARI",
+    "faculty": "A-RAMBABU",
     "room": "H-402"
    },
    "P6": {
@@ -943,7 +973,12 @@
     "faculty": "V-B-SRINIVAS",
     "room": "H-211"
    },
-   "P7": null
+   "P7": {
+    "subject": "Library",
+    "abbr": "Library",
+    "faculty": "",
+    "room": ""
+   }
   },
   "Thu": {
    "P1": {
@@ -967,13 +1002,13 @@
    "P4": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "S-MEGHANA",
+    "faculty": "M-MAHENDER",
     "room": "H-211"
    },
    "P5": {
     "subject": "Materials, Energy and Chemical Technologies",
     "abbr": "MECT",
-    "faculty": "PRADEEP-KUMAR-CHALLA",
+    "faculty": "SANDHYA-KUTIKANTI",
     "room": "H-211"
    },
    "P6": {
@@ -983,23 +1018,23 @@
     "room": "H-211"
    },
    "P7": {
-    "subject": "Library",
-    "abbr": "Library",
+    "subject": "Mentoring",
+    "abbr": "Mentor",
     "faculty": "",
     "room": ""
    }
   },
   "Fri": {
    "P1": {
-    "subject": "Generative AI Tools Lab",
-    "abbr": "GenAI-L",
-    "faculty": "K-SRIHARI",
+    "subject": "Programming in C Lab",
+    "abbr": "PIC-L",
+    "faculty": "M-MAHENDER / S-MEGHANA",
     "room": "H-402"
    },
    "P2": {
-    "subject": "Generative AI Tools Lab",
-    "abbr": "GenAI-L",
-    "faculty": "K-SRIHARI",
+    "subject": "Programming in C Lab",
+    "abbr": "PIC-L",
+    "faculty": "M-MAHENDER / S-MEGHANA",
     "room": "H-402"
    },
    "P3": {
@@ -1009,19 +1044,29 @@
     "room": "H-211"
    },
    "P4": {
-    "subject": "Materials, Energy and Chemical Technologies Lab",
-    "abbr": "MECT-L",
-    "faculty": "PRADEEP-KUMAR-CHALLA",
-    "room": "D-509"
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "M-MAHENDER",
+    "room": "H-211"
    },
    "P5": {
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "SANDHYA-KUTIKANTI",
+    "room": "H-211"
+   },
+   "P6": {
     "subject": "Materials, Energy and Chemical Technologies Lab",
     "abbr": "MECT-L",
     "faculty": "PRADEEP-KUMAR-CHALLA",
     "room": "D-509"
    },
-   "P6": null,
-   "P7": null
+   "P7": {
+    "subject": "Materials, Energy and Chemical Technologies Lab",
+    "abbr": "MECT-L",
+    "faculty": "PRADEEP-KUMAR-CHALLA",
+    "room": "D-509"
+   }
   }
  },
  "AIML-D": {
@@ -1045,9 +1090,9 @@
     "room": "H-109"
    },
    "P4": {
-    "subject": "Linear Algebra and Calculus",
-    "abbr": "LAC",
-    "faculty": "G-SRINIVAS",
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "M-MAHENDER",
     "room": "H-212"
    },
    "P5": {
@@ -1079,7 +1124,7 @@
    "P2": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "P-SRI-DEVI",
+    "faculty": "M-MAHENDER",
     "room": "H-212"
    },
    "P3": {
@@ -1095,19 +1140,29 @@
     "room": "H-212"
    },
    "P5": {
+    "subject": "Linear Algebra and Calculus",
+    "abbr": "LAC",
+    "faculty": "G-SRINIVAS",
+    "room": "H-212"
+   },
+   "P6": {
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "M-MAHENDER",
+    "room": "H-212"
+   },
+   "P7": {
     "subject": "Mentoring",
     "abbr": "Mentor",
     "faculty": "",
     "room": ""
-   },
-   "P6": null,
-   "P7": null
+   }
   },
   "Wed": {
    "P1": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "P-SRI-DEVI",
+    "faculty": "M-MAHENDER",
     "room": "H-212"
    },
    "P2": {
@@ -1131,19 +1186,19 @@
    "P5": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "P-SRI-DEVI",
+    "faculty": "M-MAHENDER / P-SRI-DEVI",
     "room": "D-308"
    },
    "P6": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "P-SRI-DEVI",
+    "faculty": "M-MAHENDER / P-SRI-DEVI",
     "room": "D-308"
    },
    "P7": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "P-SRI-DEVI",
+    "faculty": "M-MAHENDER / P-SRI-DEVI",
     "room": "D-308"
    }
   },
@@ -1151,38 +1206,38 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "T-VIDYA-SAGAR / K-MAHESHWARI",
-    "room": "JOY-LAB-05"
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / N-SHIVA-SAI-KRISHNA",
+    "room": "JOY-LAB-03"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "T-VIDYA-SAGAR / K-MAHESHWARI",
-    "room": "JOY-LAB-05"
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / N-SHIVA-SAI-KRISHNA",
+    "room": "JOY-LAB-03"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "T-VIDYA-SAGAR / K-MAHESHWARI",
-    "room": "JOY-LAB-05"
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / N-SHIVA-SAI-KRISHNA",
+    "room": "JOY-LAB-03"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "T-VIDYA-SAGAR / K-MAHESHWARI",
-    "room": "JOY-LAB-05"
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / N-SHIVA-SAI-KRISHNA",
+    "room": "JOY-LAB-03"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "T-VIDYA-SAGAR / K-MAHESHWARI",
-    "room": "JOY-LAB-05"
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / N-SHIVA-SAI-KRISHNA",
+    "room": "JOY-LAB-03"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "T-VIDYA-SAGAR / K-MAHESHWARI",
-    "room": "JOY-LAB-05"
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / N-SHIVA-SAI-KRISHNA",
+    "room": "JOY-LAB-03"
    },
    "P7": null
   },
@@ -1206,16 +1261,16 @@
     "room": "H-212"
    },
    "P4": {
-    "subject": "Programming in C",
-    "abbr": "PIC",
-    "faculty": "P-SRI-DEVI",
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "SAIKRISHNA-BALABADRA",
     "room": "H-212"
    },
    "P5": {
-    "subject": "Materials, Energy and Chemical Technologies Lab",
-    "abbr": "MECT-L",
-    "faculty": "SAIKRISHNA-BALABADRA",
-    "room": "D-409"
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "M-MAHENDER",
+    "room": "H-212"
    },
    "P6": {
     "subject": "Materials, Energy and Chemical Technologies Lab",
@@ -1223,7 +1278,12 @@
     "faculty": "SAIKRISHNA-BALABADRA",
     "room": "D-409"
    },
-   "P7": null
+   "P7": {
+    "subject": "Materials, Energy and Chemical Technologies Lab",
+    "abbr": "MECT-L",
+    "faculty": "SAIKRISHNA-BALABADRA",
+    "room": "D-409"
+   }
   }
  },
  "AIML-E": {
@@ -1231,19 +1291,19 @@
    "P1": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "M-MAHENDER",
+    "faculty": "V-SHASHANK / K-SRIHARI",
     "room": "D-512"
    },
    "P2": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "M-MAHENDER",
+    "faculty": "V-SHASHANK / K-SRIHARI",
     "room": "D-512"
    },
    "P3": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "M-MAHENDER",
+    "faculty": "V-SHASHANK / K-SRIHARI",
     "room": "D-512"
    },
    "P4": {
@@ -1255,7 +1315,7 @@
    "P5": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "M-MAHENDER",
+    "faculty": "V-SHASHANK",
     "room": "H-214"
    },
    "P6": {
@@ -1264,7 +1324,12 @@
     "faculty": "A-SWATHI",
     "room": "H-214"
    },
-   "P7": null
+   "P7": {
+    "subject": "Library",
+    "abbr": "Library",
+    "faculty": "",
+    "room": ""
+   }
   },
   "Tue": {
    "P1": {
@@ -1274,8 +1339,8 @@
     "room": "H-214"
    },
    "P2": {
-    "subject": "Generative AI Tools",
-    "abbr": "GenAI",
+    "subject": "Programming in C",
+    "abbr": "PIC",
     "faculty": "V-SHASHANK",
     "room": "H-214"
    },
@@ -1288,22 +1353,27 @@
    "P4": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "V-SHASHANK",
+    "faculty": "A-RAMBABU",
     "room": "H-306"
    },
    "P5": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "V-SHASHANK",
+    "faculty": "A-RAMBABU",
     "room": "H-306"
    },
    "P6": {
-    "subject": "Mentoring",
-    "abbr": "Mentor",
-    "faculty": "",
-    "room": ""
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "A-SWATHI",
+    "room": "H-214"
    },
-   "P7": null
+   "P7": {
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "V-SHASHANK",
+    "room": "H-214"
+   }
   },
   "Wed": {
    "P1": {
@@ -1342,13 +1412,18 @@
     "faculty": "D-RAMESH",
     "room": "H-109"
    },
-   "P7": null
+   "P7": {
+    "subject": "Mentoring",
+    "abbr": "Mentor",
+    "faculty": "",
+    "room": ""
+   }
   },
   "Thu": {
    "P1": {
-    "subject": "Programming in C",
-    "abbr": "PIC",
-    "faculty": "M-MAHENDER",
+    "subject": "Generative AI Tools",
+    "abbr": "GenAI",
+    "faculty": "A-RAMBABU",
     "room": "H-214"
    },
    "P2": {
@@ -1366,25 +1441,25 @@
    "P4": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "M-MAHENDER",
-    "room": "H-212"
+    "faculty": "V-SHASHANK",
+    "room": "H-214"
    },
    "P5": {
-    "subject": "Library",
-    "abbr": "Library",
-    "faculty": "",
-    "room": ""
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "V-SHASHANK",
+    "room": "H-214"
    },
    "P6": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "V-SHASHANK",
+    "faculty": "A-RAMBABU",
     "room": "H-402"
    },
    "P7": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "V-SHASHANK",
+    "faculty": "A-RAMBABU",
     "room": "H-402"
    }
   },
@@ -1392,37 +1467,37 @@
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "V-MAMATHA / SHIREESHA",
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / K-SUJANA",
     "room": "JOY-LAB-02"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "V-MAMATHA / SHIREESHA",
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / K-SUJANA",
     "room": "JOY-LAB-02"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "V-MAMATHA / SHIREESHA",
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / K-SUJANA",
     "room": "JOY-LAB-02"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "V-MAMATHA / SHIREESHA",
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / K-SUJANA",
     "room": "JOY-LAB-02"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "V-MAMATHA / SHIREESHA",
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / K-SUJANA",
     "room": "JOY-LAB-02"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "V-MAMATHA / SHIREESHA",
+    "faculty": "G-ALEKHYA / J-SURYA-MANIDEEP / K-SUJANA",
     "room": "JOY-LAB-02"
    },
    "P7": null
@@ -1431,8 +1506,8 @@
  "AIML-F": {
   "Mon": {
    "P1": {
-    "subject": "Programming in C",
-    "abbr": "PIC",
+    "subject": "Generative AI Tools",
+    "abbr": "GenAI",
     "faculty": "K-SRIHARI",
     "room": "H-204"
    },
@@ -1466,13 +1541,18 @@
     "faculty": "M-LALU",
     "room": "H-104"
    },
-   "P7": null
+   "P7": {
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "V-SHASHANK",
+    "room": "H-204"
+   }
   },
   "Tue": {
    "P1": {
-    "subject": "Generative AI Tools",
-    "abbr": "GenAI",
-    "faculty": "A-RAMBABU",
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "V-SHASHANK",
     "room": "H-204"
    },
    "P2": {
@@ -1496,19 +1576,19 @@
    "P5": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "K-SRIHARI",
+    "faculty": "V-SHASHANK",
     "room": "H-204"
    },
    "P6": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "A-RAMBABU",
+    "faculty": "K-SRIHARI",
     "room": "H-402"
    },
    "P7": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "A-RAMBABU",
+    "faculty": "K-SRIHARI",
     "room": "H-402"
    }
   },
@@ -1528,31 +1608,31 @@
    "P3": {
     "subject": "Programming in C",
     "abbr": "PIC",
-    "faculty": "K-SRIHARI",
+    "faculty": "V-SHASHANK",
     "room": "H-206"
    },
    "P4": {
+    "subject": "Programming in C",
+    "abbr": "PIC",
+    "faculty": "V-SHASHANK",
+    "room": "H-211"
+   },
+   "P5": {
     "subject": "Mentoring",
     "abbr": "Mentor",
     "faculty": "",
-    "room": ""
-   },
-   "P5": {
-    "subject": "Library",
-    "abbr": "Library",
-    "faculty": "",
-    "room": ""
+    "room": "H-211"
    },
    "P6": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "A-RAMBABU",
+    "faculty": "K-SRIHARI",
     "room": "H-402"
    },
    "P7": {
     "subject": "Generative AI Tools Lab",
     "abbr": "GenAI-L",
-    "faculty": "A-RAMBABU",
+    "faculty": "K-SRIHARI",
     "room": "H-402"
    }
   },
@@ -1560,19 +1640,19 @@
    "P1": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "K-SRIHARI",
+    "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
     "room": "D-308"
    },
    "P2": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "K-SRIHARI",
+    "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
     "room": "D-308"
    },
    "P3": {
     "subject": "Programming in C Lab",
     "abbr": "PIC-L",
-    "faculty": "K-SRIHARI",
+    "faculty": "V-SHASHANK / G-ASHOK-KUMAR",
     "room": "D-308"
    },
    "P4": {
@@ -1587,44 +1667,54 @@
     "faculty": "S-V-KIRANMAYI-CH",
     "room": "H-204"
    },
-   "P6": null,
-   "P7": null
+   "P6": {
+    "subject": "Materials, Energy and Chemical Technologies",
+    "abbr": "MECT",
+    "faculty": "GODUMALA-MALLESHAM",
+    "room": "H-204"
+   },
+   "P7": {
+    "subject": "Library",
+    "abbr": "Library",
+    "faculty": "",
+    "room": ""
+   }
   },
   "Fri": {
    "P1": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHIREESHA / V-MAMATHA",
+    "faculty": "VENKAT-RAMANA / J-PRIYANAKA / H-AMARESH",
     "room": "JOY-LAB-02"
    },
    "P2": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHIREESHA / V-MAMATHA",
+    "faculty": "VENKAT-RAMANA / J-PRIYANAKA / H-AMARESH",
     "room": "JOY-LAB-02"
    },
    "P3": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHIREESHA / V-MAMATHA",
+    "faculty": "VENKAT-RAMANA / J-PRIYANAKA / H-AMARESH",
     "room": "JOY-LAB-02"
    },
    "P4": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHIREESHA / V-MAMATHA",
+    "faculty": "VENKAT-RAMANA / J-PRIYANAKA / H-AMARESH",
     "room": "JOY-LAB-02"
    },
    "P5": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHIREESHA / V-MAMATHA",
+    "faculty": "VENKAT-RAMANA / J-PRIYANAKA / H-AMARESH",
     "room": "JOY-LAB-02"
    },
    "P6": {
     "subject": "Joy of Engineering - I",
     "abbr": "JOE-I",
-    "faculty": "SHIREESHA / V-MAMATHA",
+    "faculty": "VENKAT-RAMANA / J-PRIYANAKA / H-AMARESH",
     "room": "JOY-LAB-02"
    },
    "P7": null
