@@ -332,8 +332,11 @@ def from_hints(data,hints):
 MUST_FILL_PERIODS = (0, 1, 2, 4, 5)
 # Sections with fewer periods than must-fill slots: P5/P6 become top-priority soft for them.
 SOFT_FILL_PERIODS = (4, 5)
-SOFT_FILL_SECTIONS = {'Mech-S6-A', 'Mech-S6-B'}
+SOFT_FILL_SECTIONS = {'Mech-S6-A', 'Mech-S6-B', 'CIVIL-S6-A', 'CIVIL-S6-B'}
 SOFT_FILL_WEIGHT = 100000
+TBC_PERIODS = {4, 6, 7}  # 1-based periods allowed for courses that have no real teacher yet
+def is_placeholder(f):
+    return str(f).startswith('TBC') or bool(re.match(r'^(DM|DGD|TP)\d', str(f)))
 # name: allowed types, value kind, scopes, enabled, type, value, weight, description
 CONSTRAINT_SPECS = {
     'P1_NO_IDLE': ('HARD', None, 'Global Department Section', False, 'HARD', None, 1, 'Require P1 occupancy for every student group; recorded section commitments are exempt.'),
@@ -821,10 +824,15 @@ def build_cp_model(data, hints=()):
                              if r['name'] == 'FACULTY_ALLOWED_SLOTS' and r['enabled']}
     allowed_faculty_days = {r['target']: set(r['value']) for r in data.get('constraints', [])
                             if r['name'] == 'FACULTY_ALLOWED_DAYS' and r['enabled']}
+    pinned_ids={x['activity_id'] for x in data.get('fixed_sessions',[])}
     for a in acts:
         previous=None;dur=a['duration']
+        # Courses with no real teacher yet (TBC / DM / DGD placeholders) may only use P4, P6 and P7,
+        # so the departments can staff them later from teachers free at those times. Pinned sessions keep their slot.
+        tbc_only=a['id'] not in pinned_ids and dur<=2 and all(is_placeholder(f) for f in a['faculty'])
         legal=[di*n+p for di in range(len(days)) for p in range(n-dur+1)
-               if all(days[di] in allowed_faculty_days.get(f, set(days)) for f in a['faculty'])
+               if (not tbc_only or all(q+1 in TBC_PERIODS for q in range(p,p+dur)))
+               and all(days[di] in allowed_faculty_days.get(f, set(days)) for f in a['faculty'])
                and all(f not in allowed_faculty_slots or all((days[di], q + 1) in allowed_faculty_slots[f] for q in range(p,p+dur)) for f in a['faculty'])
                and not any(set(range(di*n+p,di*n+p+dur)) & section_busy_slots[g.split(':',1)[0]] for g in a['groups'])
                and all(times[k][1]==times[k+1][0] for k in range(p,p+dur-1))
