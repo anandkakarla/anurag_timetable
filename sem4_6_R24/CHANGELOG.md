@@ -1,5 +1,12 @@
 # Changelog
 
+## 2026-11-19 (morning): only P4 and P7 may be free; colour-coded grids
+
+- `timetable_solver/solve_timetable_p4p7.py`: P1, P2, P3, P5 and P6 must be occupied for every section (P4 and P7 may be free). Exception: Mech S6 has 23 periods for 25 must-fill slots, so P5/P6 are top-priority soft there (weight 100000). Tested department by department: all feasible; AIML S4/S6 and ECE S4 were undecided, as on earlier versions.
+- `input/workload_all_departments_R24_nov19_v12_noICS.xlsx`: v11 with Civil S6 VACR moved from Monday P5–P7 to Monday P1–P3, so Civil S6 (25 periods, 25 must-fill slots) can meet the rule.
+- Grid colours (Excel and HTML): blue = theory, green = lab, purple = PSE/IP, orange = fixed training (Technical Training, QALR, VACR, FSJ, Monday off), shown with its time. Teacher view greys out existing first-year load. Fixed garbled characters in the HTML.
+- Run: `python solve_timetable_p4p7.py --input ..\input\workload_all_departments_R24_nov19_v12_noICS.xlsx --hint <previous timetable.xlsx> --seconds 3600 --workers 8 --out <dir> --name timetable_nov19_v12_p4p7`
+
 ## 2026-11-19 — first feasible R24 Sem 4/6 timetable
 
 **Result:** `output/timetable_nov19_v11_p1p3_labelled.xlsx`. FEASIBLE; all 3,030 periods placed. Every section has a class in P1–P3 on every working day. Training blocks are labelled in the grid. ICS for ECE S6 is not included.
