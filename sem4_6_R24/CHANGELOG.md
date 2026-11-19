@@ -1,5 +1,14 @@
 # Changelog
 
+## 2026-11-19 (late morning): Civil rooms and missing course (v13)
+
+`input/workload_all_departments_R24_nov19_v13_noICS.xlsx`, from the Civil "New Work Load and Room Numbers" file:
+- Concrete Tech lab in C-G2, Hydraulics lab in C-G5, Environmental Engg lab in C-304, IP-II in C-106, PSE-II in Fab Lab Zone-A. Before this, every Civil lab was in C-106 (58 periods a week for one room).
+- Tekla is now a 3-period lab in C-106 (it was entered as theory).
+- Added Civil S4 AS&G (T&P) Value Addition Course, 3 periods: A taught by 19128 and 19601, B by 1101 and 19602. The department's load file had it; our input didn't.
+- Civil S6 VACR rooms set to C-301/C-302.
+- Civil S4 = 34 periods, Civil S6 = 25. Each department solved on its own: both feasible.
+
 ## 2026-11-19 (morning): only P4 and P7 may be free; colour-coded grids
 
 - `timetable_solver/solve_timetable_p4p7.py`: P1, P2, P3, P5 and P6 must be occupied for every section (P4 and P7 may be free). Exception: Mech S6 has 23 periods for 25 must-fill slots, so P5/P6 are top-priority soft there (weight 100000). Tested department by department: all feasible; AIML S4/S6 and ECE S4 were undecided, as on earlier versions.
