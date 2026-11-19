@@ -1193,6 +1193,36 @@ RX_DEPT_COLORS=[("#7c3aed","#ede9fe","#4c1d95"),("#0369a1","#e0f2fe","#0c4a6e"),
     ("#be123c","#ffe4e6","#881337"),("#0f766e","#ccfbf1","#134e4a"),("#4338ca","#e0e7ff","#312e81"),("#a16207","#fef9c3","#713f12"),
     ("#9d174d","#fce7f3","#831843"),("#166534","#dcfce7","#14532d"),("#1d4ed8","#dbeafe","#1e3a8a"),("#7e22ce","#f3e8ff","#581c87"),("#c2410c","#ffedd5","#7c2d12")]
 RX_TYPE={"training":("#fde7d0","#8a4b00"),"theory":("#edf3ff","#1f2a60"),"lab":("#fff0f5","#a51d4d"),"project":("#eef9ee","#23752c")}
+
+ABBR_OVERRIDES={'quantitative aptitude and logical reasoning':'QALR','verbal ability and critical reasoning':'VACR',
+    'technical and business communication skills':'TBCS','problem solving in engineering':'PSE','integrated project':'IP','ip':'IP',
+    'dimensions of engineering':'IP','pse':'PSE','web development with mern stack':'MERN','programming in python':'Python',
+    'essentials of python programming':'Python','java programming':'Java','full stack java':'FSJ','embedded systems and iot':'ESIoT',
+    'internet of things':'IoT','database management systems':'DBMS','database management system':'DBMS','database systems':'DBS',
+    'advanced java programming':'Adv Java','essentials of java':'Java','big data':'Big Data','machine learning':'ML',
+    'professional excellence through soft skills':'Soft Skills','english for professionals':'English','english through theatre arts':'English (Theatre)',
+    'constitution of india':'COI','technical and business communication':'TBCS','cryptography':'Crypto','facts and hvdc':'FACTS-HVDC',
+    'rtos concepts for automotive applications':'RTOS','steel detailing mastery using tekla structures':'Tekla','essentials of java programming':'Java',
+    'project and risk management':'PRM','skill integrated language':'SIL','analog vlsi design':'AVLSI','vlsi design':'VLSI','power systems':'PS',
+    'switchgear & protection':'SGP','switchgear and protection':'SGP','computer networking':'CN','introduction to natural lanuage processing':'NLP',
+    'introduction to natural language processing':'NLP','ai for mechanical engineering':'AI-ME','r programming':'R Prog','data analytics with r':'DA-R','advanced reading comprehension skills':'ARCS','computer aided design':'CAD'}
+ABBR_STOP={'and','of','in','for','the','using','with','to','through','its','on','a','an','&'}
+def course_abbr(name):
+    """Short course name for timetable cells (codes stay in the legend)."""
+    raw=re.sub(r'\(.*?(\)|$)','',str(name or '')).strip()
+    if sum(c.isupper() for c in raw)>0.6*sum(c.isalpha() for c in raw):raw=raw.title()
+    lab=bool(re.search(r'\b(lab|laboratory)\b',raw,re.I))
+    base=re.sub(r'\b(lab|laboratory)\b','',raw,flags=re.I).strip(' -–')
+    roman=''
+    m=re.search(r'[\s-]+(i{1,3}|iv|v)\s*$',base,re.I)
+    if m:roman='-'+m.group(1).upper();base=base[:m.start()].strip(' -–')
+    key=re.sub(r'\s+',' ',base.lower()).strip()
+    if key in ABBR_OVERRIDES:ab=ABBR_OVERRIDES[key]
+    else:
+        words=[w for w in re.split(r'[\s,/&–-]+',base) if w and w.lower() not in ABBR_STOP]
+        if len(words)==1:ab=words[0][:10]
+        else:ab=''.join(w if (sum(ch.isupper() for ch in w)>=2 and len(w)<=5) else w[0].upper() for w in words)
+    return ab+roman+(' Lab' if lab else '')
 def rx_esc(v):return html.escape(str(v if v is not None else ''),quote=True)
 def rx_slug(v):return ''.join(c if c.isalnum() else '_' for c in str(v))
 def rx_short(t,n=30):
@@ -1216,9 +1246,9 @@ def rx_result(model,res,data):
             if m and r not in secinfo:secinfo[r]={'section':r,'dept':m[1],'sem':int(m[2]),'label':f'{m[1]} {["","I","II","III","IV"][min(4,(int(m[2])+1)//2)]}-{m[3]}'}
     for s in res['schedule']:
         a=acts[s['activity_id']];typ='training' if s['activity_id'] in model.get('fixed_ids',set()) else 'lab' if a['kind']=='Lab' else 'project' if a['kind']=='IP' else 'theory'
-        subjects.setdefault(a['code'],{'code':a['code'],'name':a['name'],'shortcut':a['code'],'dept':a['dept'],'type':typ})
+        subjects.setdefault(a['code'],{'code':a['code'],'name':a['name']+f" [{a['code']}]",'shortcut':course_abbr(a['name']),'dept':a['dept'],'type':typ})
         tags=sorted({g.split(':',1)[1] for g in a['groups'] if ':' in g})
-        slot={'subject':a['code'],'tag':'/'.join(tags),'type':typ,'facs':[key(f) for f in a['faculty']],'room':s['room'],'merged':len({g.split(':')[0] for g in a['groups']})>1}
+        slot={'subject':a['code'],'abbr':course_abbr(a['name']),'tag':'/'.join(tags),'type':typ,'facs':[key(f) for f in a['faculty']],'room':s['room'],'merged':len({g.split(':')[0] for g in a['groups']})>1}
         rooms_used[s['room']]+=s['duration']
         for g in sorted({g.split(':')[0] for g in a['groups']}):
             for q in range(s['period']-1,s['period']-1+s['duration']):tt[g][s['day']][q].append(slot)
@@ -1256,7 +1286,7 @@ def rx_cell(slots,prefix=None):
     out=[]
     for x in slots:
         bg,fg=RX_TYPE.get(x['type'],RX_TYPE['theory'])
-        head=(f'{prefix}: ' if prefix else '')+x['subject']+(f" · {x['tag']}" if x['tag'] else '')+(' (merged)' if x.get('merged') and not prefix else '')
+        head=(f'{prefix}: ' if prefix else '')+x.get('abbr',x['subject'])+(f" · {x['tag']}" if x['tag'] else '')+(' (merged)' if x.get('merged') and not prefix else '')
         fac=' / '.join(f.split(' (')[0] for f in x['facs'])
         out.append(f'<div class="cell" style="background:{bg};color:{fg}"><div class="ab">{rx_esc(head)}</div>'+(f'<div class="tc">{rx_short(fac,34)}</div>' if fac else '')+(f'<div class="rm">{rx_esc(x["room"])}</div>' if x['room'] else '')+'</div>')
     return '<hr>'.join(out)
