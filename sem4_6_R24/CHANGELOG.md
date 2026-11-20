@@ -60,3 +60,13 @@
 - Mech S6: the Computer Aided Engineering-II lab (2 periods in the grid) is missing from the input.
 - No-P1 rule: IDs still needed for "Jyothi madam" (Mech) and one other faculty member.
 - 92 activities have TBC faculty and 94 have TBC rooms. Paired S/W–H/W labs still book only one room.
+
+## 2026-11-20 — v35 timetable published (FEASIBLE, 2897/2897 periods)
+- Solver `solve_timetable_v38b.py`: department room lists are hard (TBC room only where none was given);
+  building-hop penalties for teachers and sections; per-day / half-day room-change penalties for floating
+  sections; existing-load gap penalty; PSE-II venues shared two sections at a time; TBCS only in P4/P6/P7;
+  at most 3 consecutive periods per teacher (soft); optional `--soft-rooms`; quieter console output.
+- Inputs: v35 (published timetable) and v38 (latest: + Swathi 12040 mornings only, V. Jyothi 1008 no P1,
+  max-3-consecutive rule). Home rooms: dedicated rooms as given; pooled departments assigned in list order,
+  AIML 70% fixed / 30% floating. IP-II in department computer labs; PSE-II in the OIA venue list.
+- Tools: run_overnight.py (attempt ladder), compare_runs.py (quality table), diagnose_rooms.py (room bottleneck).
