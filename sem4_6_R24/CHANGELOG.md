@@ -1,5 +1,34 @@
 # Changelog
 
+## 2026-11-21 — v60 timetable published (FEASIBLE, 2888/2888); v63 input and solver v59
+
+**Published:** `output/timetable_nov20_v60.xlsx` / `.html` (also `index.html`). Solved on the server (16 workers), saved at 4614 s, warm-started from v58. All 2888 periods placed, 0 unplaced, 0 TBC rooms.
+
+| Lower is better | v35 | v58 | v60 |
+|---|---:|---:|---:|
+| Same subject twice in a day | 339 | 263 | 83 |
+| Teacher building changes (back-to-back) | 11 | 5 | 2 |
+| Section building changes | 19 | 11 | 8 |
+| Section room changes | 280 | 274 | 283 |
+| Student gaps | 121 | 96 | 94 |
+
+**Input `input/workload_all_departments_R24_nov20_v60.xlsx`** (what v60 was solved from) = v35 plus:
+- Swathi 12040 P1–P4 only; Mech S4 ATD theory 4; Mech S6 HT and CAE-II labs 3+3 (CAE-II theory row removed).
+- EEE ASDC (ESE3202) trainers 9303 Koteshwara Rao and 3259 Kamalakar, both slots.
+- CSE-C2 S4 Python Lab A-434; ESIoT theory III-E 2501, III-F 2074; CSE CN labs 2 periods.
+- PSE-II venues: CSE C1 A-302, C2 A-402, C3 A-217; CS/IT H-811; AI/AIML/DS FAB Zone C; ECE/ECM/EEE Zone B; Civil/Mech Zone A or B. AIML PSE one teacher per section.
+- No first hour (P1): 12029, 12008, 12001, 6002, 1029, 1093, 2507, 2491, 3073, 11018, 4429, 7061; 19156 Pallavi Badry Monday only (plus existing 3034, 4463).
+- Weights: high 5000 (building changes, same subject consecutive, theory room switch), medium 1000 (faculty > 5/day, student gaps, home room, distinct rooms), low 100; Mech/Civil S6 P5–P6 idle 10000; same subject max 2/day hard, second period of a subject in a day soft 5000.
+
+**Input `input/workload_all_departments_R24_nov20_v63.xlsx`** (not yet solved) = v60 plus:
+- CSE C1 20-11 file: CN theory III-A 10616, CN Lab III-A 10616, CN Lab III-D 10678, DBMS Lab II-C 10656 (CN labs stay 2 periods).
+- Civil S4 English for Professionals: A 7303 Priyanka Reddy, B 11553 V Padmaja (her MBA load added as existing load).
+- English through Theatre Arts (CS/IT S4): both listed English teachers per section, theory and lab.
+- Floor rule: back-to-back periods on different floors of the same building cost 5000, teachers and sections (v60 has 143 teacher / 162 section floor changes).
+
+**Solver `timetable_solver/solve_timetable_v59.py`:** saves the first timetable at once (`<name>_first`) and every 15 min if improved; Ctrl+C stops and saves the best. Adds PREFER_ONE_SUBJECT_PER_DAY, NO_SECTION_ROOM_SWITCH, FACULTY_BACK_TO_BACK, NO_FACULTY_FLOOR_HOP, NO_SECTION_FLOOR_HOP. HTML shows sections taught together as one cell (AIML III-A/B/C) and no course codes in elective tags.
+Run: `python solve_timetable_v59.py --input ..\input\workload_all_departments_R24_nov20_v63.xlsx --hint ..\output\timetable_nov20_v60.xlsx --seconds 14400 --workers <cores> --out <dir> --name timetable_nov20_v63`
+
 ## 2026-11-19 (late morning): Civil rooms and missing course (v13)
 
 `input/workload_all_departments_R24_nov19_v13_noICS.xlsx`, from the Civil "New Work Load and Room Numbers" file:
