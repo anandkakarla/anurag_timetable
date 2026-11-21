@@ -1,5 +1,28 @@
 # Changelog
 
+## 2026-11-21 (afternoon) — v64 timetable published (FEASIBLE, 2922/2922)
+
+**Published:** `output/timetable_nov20_v64.xlsx` / `.html`, `index.html` (latest) and `2026-11-21/index.html` (today's copy, now v64). Server run, 16 workers, warm start from v60; saved at 10021 s. All 2922 periods placed, 0 unplaced, 0 TBC rooms.
+
+**Input `input/workload_all_departments_R24_nov20_v64.xlsx`** = v60 plus:
+- IP-II (EVA2201) 2 -> 3 periods for AI, AIML, CSE-C1, CSE-C2, CSE-C3 and DS S4 (all IP is now 3).
+- CSE C1 20-11 file: CN theory III-A 10616, CN Lab III-A 10616, CN Lab III-D 10678, DBMS Lab II-C 10656 (CN labs stay 2).
+- Civil S4 English for Professionals: A 7303 Priyanka Reddy, B 11553 V Padmaja (her MBA load added).
+- English through Theatre Arts (CS/IT S4): both English teachers per section, theory and lab.
+- No floor rule.
+
+| Lower is better | v35 | v60 | v64 |
+|---|---:|---:|---:|
+| Same subject twice in a day | 353 | 83 | 85 |
+| Teacher building changes (back-to-back) | 12 | 2 | 9 |
+| Section building changes | 19 | 8 | 7 |
+| Section room changes | 297 | 283 | 275 |
+| Student gaps | 115 | 94 | 108 |
+| Teacher floor changes (same building) | — | 143 | 124 |
+
+CSE S4 sections are now at 34 of 35 periods a week (Friday is training), so there is almost no slack there.
+Solver: `timetable_solver/solve_timetable_v60.py` (v59 + `--free-depts` / `--free-faculty` to re-solve only some departments with the rest frozen to a previous timetable).
+
 ## 2026-11-21 — v60 timetable published (FEASIBLE, 2888/2888); v63 input and solver v59
 
 **Published:** `output/timetable_nov20_v60.xlsx` / `.html`, also `index.html` (always the latest) and `2026-11-21/index.html` (dated copy, stays fixed). Solved on the server (16 workers), saved at 4614 s, warm-started from v58. All 2888 periods placed, 0 unplaced, 0 TBC rooms.
