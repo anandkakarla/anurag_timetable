@@ -2,7 +2,7 @@
 
 ## 2026-11-21 (afternoon) — v64 timetable published (FEASIBLE, 2922/2922)
 
-**Published:** `output/timetable_nov20_v64.xlsx` / `.html`, `index.html` (latest) and `2026-11-21/index.html` (today's copy, now v64). Server run, 16 workers, warm start from v60; saved at 10021 s. All 2922 periods placed, 0 unplaced, 0 TBC rooms.
+**Published:** `output/timetable_nov20_v64.xlsx` / `.html`, `index.html` (latest) and `2026-11-21_1405/index.html` (fixed copy, published 21 Nov 14:05 IST). Server run, 16 workers, warm start from v60; saved at 10021 s. All 2922 periods placed, 0 unplaced, 0 TBC rooms.
 
 **Input `input/workload_all_departments_R24_nov20_v64.xlsx`** = v60 plus:
 - IP-II (EVA2201) 2 -> 3 periods for AI, AIML, CSE-C1, CSE-C2, CSE-C3 and DS S4 (all IP is now 3).
@@ -25,7 +25,7 @@ Solver: `timetable_solver/solve_timetable_v60.py` (v59 + `--free-depts` / `--fre
 
 ## 2026-11-21 — v60 timetable published (FEASIBLE, 2888/2888); v63 input and solver v59
 
-**Published:** `output/timetable_nov20_v60.xlsx` / `.html`, also `index.html` (always the latest) and `2026-11-21/index.html` (dated copy, stays fixed). Solved on the server (16 workers), saved at 4614 s, warm-started from v58. All 2888 periods placed, 0 unplaced, 0 TBC rooms.
+**Published:** `output/timetable_nov20_v60.xlsx` / `.html`, also `index.html` (always the latest) and `2026-11-21_0916/index.html` (fixed copy, published 21 Nov 09:16 IST; `2026-11-21/` shows the same). Solved on the server (16 workers), saved at 4614 s, warm-started from v58. All 2888 periods placed, 0 unplaced, 0 TBC rooms.
 
 | Lower is better | v35 | v58 | v60 |
 |---|---:|---:|---:|
