@@ -2,7 +2,7 @@
 
 ## 2026-11-21 — v60 timetable published (FEASIBLE, 2888/2888); v63 input and solver v59
 
-**Published:** `output/timetable_nov20_v60.xlsx` / `.html` (also `index.html`). Solved on the server (16 workers), saved at 4614 s, warm-started from v58. All 2888 periods placed, 0 unplaced, 0 TBC rooms.
+**Published:** `output/timetable_nov20_v60.xlsx` / `.html`, also `index.html` (always the latest) and `2026-11-21/index.html` (dated copy, stays fixed). Solved on the server (16 workers), saved at 4614 s, warm-started from v58. All 2888 periods placed, 0 unplaced, 0 TBC rooms.
 
 | Lower is better | v35 | v58 | v60 |
 |---|---:|---:|---:|
