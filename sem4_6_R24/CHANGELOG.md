@@ -1,5 +1,30 @@
 # Changelog
 
+## 2026-11-22 (morning) — v78l timetable published (in-run snapshot, all periods placed)
+
+**Published:** `output/timetable_nov22_v78l.xlsx` / `.html`, `index.html` (latest) and `2026-11-22_1025/index.html` (fixed copy, 22 Nov 10:25 IST). Server run (16 workers), warm start from v71; this is the 15-minute save at 11,619 s (solution #1245). The run continues to about 11:54 IST and may improve slightly.
+
+**Input `input/workload_all_departments_R24_nov22_v78l.xlsx`** = v71 input plus:
+- Mech: HT lab in two batches, CAE one full-class session within two consecutive days, PSE unpinned, II-B earlier teachers, Baba/Chalapati Mon-Wed P2.
+- EEE: Project and Risk Management (EMD4205) only at P4/P6/P7.
+- Faculty busy has a Room column (existing load filled from the first-year timetable and department files; MBA/BBA/Pharmacy/MCA left blank).
+- Weights: teacher building change back-to-back 20000; class next to existing load in another building 20000; two labs in one morning 15000; second technical lab in a day 5000; ECE lab batches same room 10000 (x2); more than 3 periods in a row 5000. Teacher floor rule off.
+
+| Lower is better | v64 | v71 | v78l |
+|---|---:|---:|---:|
+| Teacher building changes (back-to-back) | 9 | 9 | 4 |
+| Class next to existing load, other building | 53 | 57 | 14 |
+| Class next to existing load, total | 84 | 93 | 34 |
+| Teacher periods beyond 3 in a row | 94 | 105 | 64 |
+| Sections with 2 labs in one morning | 22 | 24 | 15 |
+| Sections with 2 technical labs in one day | 44 | 46 | 36 |
+| ECE lab batches in different rooms | 9 | 2 | 1 |
+| Same subject twice in a day | 85 | 130 | 116 |
+| Teacher floor changes (same building) | 124 | 106 | 119 |
+
+Remaining two-morning-lab days are CSE-C1 S4 (6), CSE-C2 S4 (6) and ECE S4 (3); these sections are fully packed.
+Solver: `timetable_solver/solve_timetable_v71.py` (v70 + existing-load gap compares the real building via the Faculty busy Room column).
+
 ## 2026-11-21 (afternoon) — v64 timetable published (FEASIBLE, 2922/2922)
 
 **Published:** `output/timetable_nov20_v64.xlsx` / `.html`, `index.html` (latest) and `2026-11-21_1405/index.html` (fixed copy, published 21 Nov 14:05 IST). Server run, 16 workers, warm start from v60; saved at 10021 s. All 2922 periods placed, 0 unplaced, 0 TBC rooms.
